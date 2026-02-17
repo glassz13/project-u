@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Project U — UPSC Survival</title>
+
+    <style>
+        /* ----------------- Layout & Theme ----------------- */
+        :root{
+            --bg:#0f1115;
+            --panel:#181a20;
+            --muted:#aaa;
+            --accent:#e5e5e5;
+            --sub:#bbb;
+            --soft:#2c2f36;
+        }
+
+        html,body{
+            height:100%;
+            margin:0;
+            background:var(--bg);
+            color:var(--accent);
+            font-family:"Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        }
+
+        /* Screens */
+        .screen {
+            display: none;
+            min-height: 100vh;
+            box-sizing: border-box;
+        }
+        .active { display: block; }
+
+        /* ----------------- INTRO (KEEP EXACT EXPERIENCE) ----------------- */
+        #intro-screen {
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            flex-direction:column;
+            text-align:center;
+            padding:60px 20px;
+        }
+
+        #intro-text {
+            font-size:1.35rem;
+            max-width:720px;
+            line-height:1.6;
+            color:var(--accent);
+            margin-bottom:14px;
+        }
+
+        #quote {
+            margin-top:20px;
+            font-style:italic;
+            color:var(--muted);
+            font-size:1.05rem;
+            max-width:720px;
+        }
+
+        #enter-hint {
+            margin-top:46px;
+            color:#9aa0a6;
+            font-size:0.95rem;
+            letter-spacing:0.6px;
+        }
+
+        /* ----------------- MAIN PAGE (LEFT-ALIGNED) ----------------- */
+        #game-screen {
+            padding:60px 80px;
+        }
+
+        .title {
+            font-size:2.1rem;
+            letter-spacing:2px;
+            margin-bottom:6px;
+            color:var(--accent);
+            font-weight:600;
+        }
+
+        .sun-tzu {
+            color:var(--muted);
+            margin-bottom:28px;
+            font-style:italic;
+        }
+
+        .stats {
+            display:flex;
+            gap:46px;
+            align-items:flex-start;
+            flex-wrap:wrap;
+            margin-bottom:32px;
+        }
+
+        .stat {
+            min-width:110px;
+        }
+
+        .stat .label {
+            display:block;
+            color:var(--sub);
+            font-size:0.95rem;
+            letter-spacing:0.6px;
+        }
+
+        .stat .value {
+            font-size:1.9rem;
+            font-weight:700;
+            margin-top:6px;
+            color:var(--accent);
+        }
+
+        .stat .small {
+            font-size:0.95rem;
+            color:var(--muted);
+            margin-top:6px;
+        }
+
+        .question-box {
+            max-width:900px;
+            margin-bottom:20px;
+            font-size:1.25rem;
+            color:var(--accent);
+            line-height:1.6;
+            padding-right:40px;
+        }
+
+        /* Input & submit */
+        .answer-row {
+            display:flex;
+            align-items:center;
+            gap:12px;
+            margin-bottom:6px;
+        }
+
+        input#answer {
+            padding:10px 8px;
+            font-size:1rem;
+            width:360px;
+            background:transparent;
+            border:none;
+            border-bottom:1px solid #34363a;
+            color:var(--accent);
+            outline:none;
+        }
+
+        input#answer::placeholder{
+            color:#8f9398;
+        }
+
+        button {
+            padding:10px 16px;
+            font-size:1rem;
+            background:var(--soft);
+            color:var(--accent);
+            border:none;
+            border-radius:6px;
+            cursor:pointer;
+        }
+
+        button:hover { background:#3b4149; }
+
+        #message {
+            margin-top:18px;
+            min-height:30px;
+            color:var(--accent);
+            font-size:1.05rem;
+        }
+
+        /* About area */
+        .about {
+            margin-top:64px;
+            display:flex;
+            gap:18px;
+            align-items:center;
+            color:var(--sub);
+            max-width:720px;
+        }
+
+        .pfp {
+            width:76px;
+            height:76px;
+            border-radius:50%;
+            object-fit:cover;
+            border:2px solid #26282b;
+        }
+
+        .about .meta {
+            font-size:0.95rem;
+            color:var(--sub);
+            line-height:1.5;
+        }
+
+        .contact {
+            margin-top:8px;
+            color:#9aa0a6;
+            font-size:0.9rem;
+        }
+
+        /* Responsive */
+        @media (max-width:820px){
+            #game-screen { padding:40px 20px; }
+            input#answer { width:240px; }
+            .question-box { font-size:1.15rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- ========== INTRO SCREEN (unchanged experience) ========== -->
+    <div id="intro-screen" class="screen active">
+        <div id="intro-text"></div>
+        <div id="quote"></div>
+        <div id="enter-hint">Press ENTER to begin</div>
+    </div>
+
+    <!-- ========== MAIN GAME SCREEN (left-aligned website style) ========== -->
+    <div id="game-screen" class="screen">
+
+        <div class="title">Project U</div>
+        <div class="sun-tzu">"In the midst of chaos, there is also opportunity." – Sun Tzu</div>
+
+        <!-- Stats -->
+        <div class="stats" aria-live="polite">
+            <div class="stat">
+                <span class="label">Lives</span>
+                <span id="lives" class="value">5</span>
+            </div>
+
+            <div class="stat">
+                <span class="label">Rank</span>
+                <span id="rank" class="value">1,000,000</span>
+            </div>
+
+            <div class="stat">
+                <span class="label">Streak</span>
+                <span id="streak" class="value">0</span>
+            </div>
+
+            <div class="stat">
+                <span class="label">Stage</span>
+                <span id="stage" class="value">1</span>
+                <span class="small" id="stage-level">Medium</span>
+            </div>
+        </div>
+
+        <!-- Question -->
+        <div id="question" class="question-box">Press Enter to start the game — then questions will appear here.</div>
+
+        <!-- Answer input -->
+        <div class="answer-row">
+            <input id="answer" type="text" placeholder="Type your answer" autocomplete="off" />
+            <button id="submitBtn" onclick="submitAnswer()">Submit</button>
+        </div>
+
+        <!-- Message area (streak +1, game over, etc.) -->
+        <div id="message" role="status" aria-live="assertive"></div>
+
+        <!-- About -->
+        <div class="about">
+            <img class="pfp" src="https://imgs.search.brave.com/2HqU6tU-aoRvkSIYHgC3_zN-6xpjAN4HfasZkPy8vjY/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS50ZW5vci5jb20v/V0tPdi15OUFLcllB/QUFBTS90b2VzLmdp/Zg.jpeg" alt="cat profile">
+            <div class="meta">
+                <strong>About Us : A non-serious UPSC aspirant who loves hyping others.</strong>
+                <div class="contact">
+                    Instagram: <em>glassz_13</em> • Gmail: <em>babulohar2051</em>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- =================== Intro Typewriter & Enter handler (keeps behavior) =================== -->
+    <script>
+        const introText = "Welcome, Aspirant! It might be a tough day for you. Let's play the game.";
+        const quoteText = "\"To confuse the enemy, you should confuse yourself first.\" – Sun Tzu 😹";
+
+        let i = 0;
+        let j = 0;
+
+        function typeIntro() {
+            if (i < introText.length) {
+                document.getElementById("intro-text").innerHTML += introText.charAt(i);
+                i++;
+                setTimeout(typeIntro, 35);
+            } else {
+                setTimeout(typeQuote, 500);
+            }
+        }
+
+        function typeQuote() {
+            if (j < quoteText.length) {
+                document.getElementById("quote").innerHTML += quoteText.charAt(j);
+                j++;
+                setTimeout(typeQuote, 30);
+            }
+        }
+
+        typeIntro();
+
+        function startGameScreen() {
+            document.getElementById("intro-screen").classList.remove("active");
+            document.getElementById("game-screen").classList.add("active");
+
+            // If your script.js defines a startGame() function, call it.
+            if (typeof startGame === "function") {
+                startGame();
+            }
+
+            // Focus the answer box immediately for smoother flow
+            setTimeout(()=> {
+                const a = document.getElementById('answer');
+                if (a) a.focus();
+            }, 120);
+        }
+
+        // ENTER on intro -> start
+        document.addEventListener("keydown", function (e) {
+            if (e.key === "Enter") {
+                const introActive = document.getElementById("intro-screen").classList.contains("active");
+                if (introActive) {
+                    startGameScreen();
+                } else {
+                    // If game screen visible, allow Enter to submit answer
+                    const answerEl = document.getElementById("answer");
+                    if (answerEl && document.activeElement === answerEl) {
+                        // do nothing here — press will trigger form/button click
+                    }
+                }
+            }
+        });
+    </script>
+
+    <!-- =================== Your game logic file =================== -->
+    <script src="script.js"></script>
+</body>
+</html>
