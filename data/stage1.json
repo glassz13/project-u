@@ -1,0 +1,872 @@
+[
+    {
+        "type":"two_out_of_three",
+        "subject":"polity",
+        "question":"A. Fundamental Rights are available against State action\r\nB. Some Fundamental Rights are available against private individuals\r\nC. All Fundamental Rights are available to foreigners also",
+        "correct":"C"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"polity",
+        "question":"A. Article 14 guarantees equality before law\r\nB. Article 15 prohibits discrimination on grounds of religion only\r\nC. Article 16 guarantees equality of opportunity in public employment",
+        "correct":"B"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"polity",
+        "question":"A. President can promulgate ordinance when Parliament is not in session\r\nB. Ordinance has same force as Act of Parliament\r\nC. President can promulgate ordinance on any subject including those in State List",
+        "correct":"C"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"polity",
+        "question":"A. Rajya Sabha is a permanent house\r\nB. 1\/3rd members of Rajya Sabha retire every 2 years\r\nC. Chairman of Rajya Sabha is elected by its members",
+        "correct":"C"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"polity",
+        "question":"A. Chief Minister is appointed by Governor\r\nB. Governor can dismiss Chief Minister at any time\r\nC. Council of Ministers is collectively responsible to Legislative Assembly",
+        "correct":"B"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"polity",
+        "question":"A. Money Bill can be introduced only in Lok Sabha\r\nB. Rajya Sabha can reject Money Bill\r\nC. Speaker certifies whether a Bill is Money Bill",
+        "correct":"B"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"polity",
+        "question":"A. Fundamental Duties were added by 42nd Amendment\r\nB. There are 11 Fundamental Duties\r\nC. Fundamental Duties are enforceable by courts",
+        "correct":"C"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"polity",
+        "question":"A. Vice President is ex-officio Chairman of Rajya Sabha\r\nB. Vice President can be removed by resolution in Rajya Sabha only\r\nC. Vice President acts as President when office falls vacant",
+        "correct":"B"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"polity",
+        "question":"A. Supreme Court judges retire at age 65\r\nB. High Court judges retire at age 62\r\nC. President can remove judges without impeachment",
+        "correct":"C"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"polity",
+        "question":"A. Article 360 deals with Financial Emergency\r\nB. Financial Emergency has been invoked once in India\r\nC. During Financial Emergency, salaries of judges can be reduced",
+        "correct":"B"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"history",
+        "question":"A. Indus Valley people worshipped Pashupati Mahadeva\r\nB. They had trade relations with Mesopotamia\r\nC. They knew about iron",
+        "correct":"C"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"history",
+        "question":"A. Ashoka embraced Buddhism after Kalinga War\r\nB. Kalinga War occurred in 261 BCE\r\nC. Ashoka spread Buddhism only within India",
+        "correct":"C"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"history",
+        "question":"A. Gupta period is called Golden Age of India\r\nB. Aryabhata lived during Gupta period\r\nC. Gupta kings were patrons of Jainism",
+        "correct":"C"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"history",
+        "question":"A. Mahmud of Ghazni invaded India 17 times\r\nB. He destroyed Somnath temple\r\nC. He established permanent rule in India",
+        "correct":"C"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"history",
+        "question":"A. Qutubuddin Aibak was slave of Muhammad Ghori\r\nB. He built Qutub Minar\r\nC. He was founder of Khilji dynasty",
+        "correct":"C"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"history",
+        "question":"A. Akbar founded Din-i-Ilahi\r\nB. He abolished Jizya tax\r\nC. He built Red Fort in Delhi",
+        "correct":"C"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"history",
+        "question":"A. Shivaji was crowned in 1674\r\nB. He established Ashta Pradhan council\r\nC. He fought against Akbar",
+        "correct":"C"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"history",
+        "question":"A. Battle of Plassey was fought in 1757\r\nB. Mir Jafar betrayed Siraj-ud-Daulah\r\nC. British gained right to collect revenue from Bengal after this battle",
+        "correct":"C"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"history",
+        "question":"A. Revolt of 1857 began at Meerut\r\nB. Mangal Pandey was hanged before revolt began\r\nC. Bahadur Shah Zafar was exiled to Burma after revolt",
+        "correct":"B"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"history",
+        "question":"A. Indian National Congress founded in 1885\r\nB. First President of INC was W.C. Bannerjee\r\nC. INC demanded complete independence from its inception",
+        "correct":"C"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"geography",
+        "question":"A. Western Ghats are older than Himalayas\r\nB. Anaimudi is highest peak in Western Ghats\r\nC. All rivers of Peninsular India originate in Western Ghats",
+        "correct":"C"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"geography",
+        "question":"A. Ganga is the longest river in India\r\nB. Brahmaputra originates in Tibet\r\nC. Narmada flows into Bay of Bengal",
+        "correct":"C"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"geography",
+        "question":"A. Black soil is ideal for cotton cultivation\r\nB. Laterite soil is rich in iron and aluminum\r\nC. Alluvial soil is poor in potash",
+        "correct":"C"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"geography",
+        "question":"A. Tropic of Cancer passes through 8 Indian states\r\nB. Standard Meridian of India is 82\u00b030'E\r\nC. India has only one time zone",
+        "correct":"A"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"geography",
+        "question":"A. Chilika is largest saltwater lake in India\r\nB. Wular is largest freshwater lake in India\r\nC. Sambhar is freshwater lake in Rajasthan",
+        "correct":"C"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"geography",
+        "question":"A. Mawsynram receives highest rainfall in India\r\nB. Jaisalmer is driest place in India\r\nC. Cherrapunji receives rainfall only in monsoon",
+        "correct":"C"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"geography",
+        "question":"A. Gulf of Mannar is on east coast\r\nB. Rann of Kutch is in Gujarat\r\nC. Andaman and Nicobar have volcanic islands",
+        "correct":"A"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"geography",
+        "question":"A. Godavari is called Dakshin Ganga\r\nB. Krishna originates in Maharashtra\r\nC. Kaveri flows into Arabian Sea",
+        "correct":"C"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"geography",
+        "question":"A. Himalayas are young fold mountains\r\nB. Aravalli are oldest mountains in India\r\nC. Vindhyas are higher than Himalayas",
+        "correct":"C"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"geography",
+        "question":"A. Sundarbans is largest mangrove forest\r\nB. Mangroves are salt-tolerant\r\nC. Mangroves have no economic value",
+        "correct":"C"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"economy",
+        "question":"A. GDP is total value of goods and services produced within India\r\nB. GNP includes net income from abroad\r\nC. GDP is always higher than GNP for India",
+        "correct":"C"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"economy",
+        "question":"A. Repo Rate is when RBI lends to banks\r\nB. Reverse Repo is when RBI borrows from banks\r\nC. Bank Rate is same as Repo Rate",
+        "correct":"C"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"economy",
+        "question":"A. Fiscal deficit = Total expenditure - Total receipts (excluding borrowings)\r\nB. Revenue deficit = Revenue expenditure - Revenue receipts\r\nC. Primary deficit = Fiscal deficit + Interest payments",
+        "correct":"C"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"economy",
+        "question":"A. Inflation benefits debtors\r\nB. Inflation hurts fixed income groups\r\nC. Deflation benefits creditors",
+        "correct":"A"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"economy",
+        "question":"A. Direct taxes are progressive generally\r\nB. GST is a direct tax\r\nC. Corporate tax is direct tax",
+        "correct":"B"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"economy",
+        "question":"A. RBI was nationalized in 1949\r\nB. RBI is banker to government\r\nC. RBI regulates stock markets",
+        "correct":"C"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"economy",
+        "question":"A. NITI Aayog replaced Planning Commission in 2015\r\nB. NITI Aayog has veto power over states\r\nC. NITI Aayog promotes cooperative federalism",
+        "correct":"B"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"economy",
+        "question":"A. SEBI regulates capital markets\r\nB. IRDAI regulates insurance sector\r\nC. PFRDA regulates pension funds - all three are statutory bodies",
+        "correct":"C"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"environment",
+        "question":"A. Project Tiger launched in 1973\r\nB. Tiger is under Schedule I of Wildlife Protection Act\r\nC. India has zero critically endangered mammals",
+        "correct":"C"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"environment",
+        "question":"A. Jim Corbett is India's oldest national park\r\nB. Kaziranga is famous for one-horned rhino\r\nC. Gir is only home for Asiatic lions in wild",
+        "correct":"A"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"environment",
+        "question":"A. Ramsar Convention deals with wetlands\r\nB. India has 75 Ramsar sites\r\nC. Chilika was first Ramsar site from India - all correct",
+        "correct":"A"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"environment",
+        "question":"A. IUCN Red List has categories from Extinct to Least Concern\r\nB. Critically Endangered is higher threat than Endangered\r\nC. Vulnerable is higher threat than Critically Endangered",
+        "correct":"C"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"environment",
+        "question":"A. Mangroves protect against cyclones\r\nB. Mangroves are breeding grounds for fish\r\nC. Mangroves increase coastal erosion",
+        "correct":"C"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"environment",
+        "question":"A. Western Ghats is a biodiversity hotspot\r\nB. Eastern Himalayas is a biodiversity hotspot\r\nC. Indo-Burma is not a biodiversity hotspot",
+        "correct":"C"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"environment",
+        "question":"A. Methane is a greenhouse gas\r\nB. CO2 has highest global warming potential among GHGs\r\nC. Black carbon is a short-lived climate pollutant",
+        "correct":"B"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"environment",
+        "question":"A. Montreal Protocol protects ozone layer\r\nB. Kyoto Protocol deals with greenhouse gases\r\nC. Paris Agreement is legally binding on all countries",
+        "correct":"C"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"science",
+        "question":"A. ISRO was established in 1969\r\nB. PSLV is called workhorse of ISRO\r\nC. GSLV uses cryogenic engine - all correct",
+        "correct":"A"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"science",
+        "question":"A. Mangalyaan was India's first Mars mission\r\nB. Chandrayaan-1 discovered water on moon\r\nC. Chandrayaan-2 successfully landed on moon",
+        "correct":"C"
+    },
+    {
+        "type":"two_out_of_three",
+        "subject":"science",
+        "question":"A. Agni is ballistic missile\r\nB. BrahMos is supersonic cruise missile\r\nC. Prithvi is intercontinental ballistic missile",
+        "correct":"C"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"polity",
+        "question":"The ______ appoints the Chief Election Commissioner of India. (President\/Prime Minister\/Chief Justice\/Parliament)",
+        "correct":"President"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"polity",
+        "question":"Article ______ deals with the President's impeachment. (61\/72\/74\/356)",
+        "correct":"61"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"polity",
+        "question":"The ______ Schedule contains provisions regarding anti-defection. (8th\/9th\/10th\/12th)",
+        "correct":"10th"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"polity",
+        "question":"______ is the first law officer of India. (Attorney General\/Solicitor General\/Advocate General\/Chief Justice)",
+        "correct":"Attorney General"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"polity",
+        "question":"The maximum gap between two Parliament sessions is ______ months. (3\/6\/9\/12)",
+        "correct":"6"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"polity",
+        "question":"The ______ Amendment reduced voting age from 21 to 18. (61st\/73rd\/86th\/42nd)",
+        "correct":"61st"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"polity",
+        "question":"The ______ appoints the Prime Minister. (President\/Vice President\/Lok Sabha\/People)",
+        "correct":"President"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"polity",
+        "question":"The writ of ______ means 'to have the body of'. (Habeas Corpus\/Mandamus\/Quo Warranto\/Certiorari)",
+        "correct":"Habeas Corpus"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"polity",
+        "question":"Fundamental Rights are in Part ______ of Constitution. (III\/IV\/IX\/X)",
+        "correct":"III"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"polity",
+        "question":"Directive Principles are in Part ______. (IV\/III\/V\/VI)",
+        "correct":"IV"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"history",
+        "question":"The ______ Dynasty built the Khajuraho temples. (Chandela\/Pratihara\/Chola\/Pallava)",
+        "correct":"Chandela"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"history",
+        "question":"The ______ Act of 1919 introduced Dyarchy. (Government of India Act 1919\/1935\/1909\/1858)",
+        "correct":"Government of India Act 1919"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"history",
+        "question":"The ______ Dynasty built the Konark Sun Temple. (Ganga\/Chola\/Pallava\/Chandela)",
+        "correct":"Ganga"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"history",
+        "question":"______ was the last Viceroy of India. (Lord Mountbatten\/Lord Wavell\/Lord Linlithgow\/Lord Canning)",
+        "correct":"Lord Mountbatten"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"history",
+        "question":"The slogan 'Jai Hind' was given by ______. (Subhash Chandra Bose\/Bhagat Singh\/Gandhi\/Nehru)",
+        "correct":"Subhash Chandra Bose"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"history",
+        "question":"Gandhi started his first Satyagraha in India at ______. (Champaran\/Ahmedabad\/Kheda\/Bardoli)",
+        "correct":"Champaran"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"history",
+        "question":"The Jallianwala Bagh massacre occurred in ______. (1919\/1857\/1942\/1930)",
+        "correct":"1919"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"history",
+        "question":"______ wrote the book 'Anandmath'. (Bankim Chandra Chatterjee\/Rabindranath Tagore\/Sarat Chandra\/RK Narayan)",
+        "correct":"Bankim Chandra Chatterjee"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"history",
+        "question":"The Quit India Movement started in ______. (1942\/1930\/1920\/1857)",
+        "correct":"1942"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"history",
+        "question":"The first Indian to win Nobel Prize was ______. (Rabindranath Tagore\/CV Raman\/Amartya Sen\/Mother Teresa)",
+        "correct":"Rabindranath Tagore"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"geography",
+        "question":"The ______ River is known as the 'Dakshin Ganga'. (Godavari\/Krishna\/Cauvery\/Narmada)",
+        "correct":"Godavari"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"geography",
+        "question":"______ soil is ideal for cotton cultivation. (Black\/Alluvial\/Red\/Laterite)",
+        "correct":"Black"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"geography",
+        "question":"The ______ Pass connects Manali to Leh. (Rohtang\/Nathu La\/Zoji La\/Baralacha La)",
+        "correct":"Rohtang"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"geography",
+        "question":"The ______ Plateau is known for mineral resources. (Chotanagpur\/Deccan\/Malwa\/Baghelkhand)",
+        "correct":"Chotanagpur"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"geography",
+        "question":"______ is the largest freshwater lake in India. (Wular\/Chilika\/Sambhar\/Dal)",
+        "correct":"Wular"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"geography",
+        "question":"______ is the largest saltwater lake in India. (Chilika\/Wular\/Sambhar\/Pulicat)",
+        "correct":"Chilika"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"geography",
+        "question":"The Tropic of Cancer passes through ______ Indian states. (8\/7\/6\/5)",
+        "correct":"8"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"geography",
+        "question":"The Standard Meridian of India is ______\u00b0E. (82.5\/85\/80\/78)",
+        "correct":"82.5"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"geography",
+        "question":"______ is the wettest place in India. (Mawsynram\/Cherrapunji\/Mumbai\/Kolkata)",
+        "correct":"Mawsynram"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"geography",
+        "question":"______ is the largest delta in India. (Sundarbans\/Godavari\/Krishna\/Mahanadi)",
+        "correct":"Sundarbans"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"economy",
+        "question":"RBI was nationalized in ______. (1949\/1947\/1950\/1935)",
+        "correct":"1949"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"economy",
+        "question":"______ is the rate at which RBI lends to banks. (Repo Rate\/Reverse Repo\/Bank Rate\/CRR)",
+        "correct":"Repo Rate"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"economy",
+        "question":"______ is the rate at which RBI borrows from banks. (Reverse Repo\/Repo Rate\/Bank Rate\/SLR)",
+        "correct":"Reverse Repo"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"economy",
+        "question":"GST was introduced in ______. (2017\/2016\/2018\/2019)",
+        "correct":"2017"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"economy",
+        "question":"NITI Aayog was formed in ______. (2015\/2014\/2016\/2017)",
+        "correct":"2015"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"economy",
+        "question":"CRR stands for ______. (Cash Reserve Ratio\/Central Reserve Rate\/Capital Reserve Ratio\/Core Reserve Ratio)",
+        "correct":"Cash Reserve Ratio"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"economy",
+        "question":"SLR stands for ______. (Statutory Liquidity Ratio\/Standard Liquidity Rate\/State Liquidity Ratio\/Special Lending Rate)",
+        "correct":"Statutory Liquidity Ratio"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"economy",
+        "question":"FDI stands for ______. (Foreign Direct Investment\/Foreign Domestic Investment\/Financial Direct Investment\/Federal Direct Investment)",
+        "correct":"Foreign Direct Investment"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"environment",
+        "question":"India's first national park is ______. (Jim Corbett\/Kaziranga\/Gir\/Sundarbans)",
+        "correct":"Jim Corbett"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"environment",
+        "question":"Project Tiger was launched in ______. (1973\/1972\/1980\/1969)",
+        "correct":"1973"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"environment",
+        "question":"The ______ is found in Gir Forest. (Asiatic Lion\/Bengal Tiger\/One-horned Rhino\/Elephant)",
+        "correct":"Asiatic Lion"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"environment",
+        "question":"Kaziranga is famous for ______. (One-horned Rhino\/Tiger\/Elephant\/Lion)",
+        "correct":"One-horned Rhino"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"environment",
+        "question":"The largest mangrove forest in India is ______. (Sundarbans\/Pichavaram\/Bhitarkanika\/Godavari)",
+        "correct":"Sundarbans"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"environment",
+        "question":"IUCN stands for ______. (International Union for Conservation of Nature\/Indian Union for Conservation\/International Unity for Climate\/Institute of Urban Conservation)",
+        "correct":"International Union for Conservation of Nature"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"environment",
+        "question":"The Ramsar Convention protects ______. (Wetlands\/ Forests\/Marine areas\/Mountains)",
+        "correct":"Wetlands"
+    },
+    {
+        "type":"fill_blank",
+        "subject":"environment",
+        "question":"India's first Ramsar site was ______. (Chilika\/Keoladeo\/Sundarbans\/Wular)",
+        "correct":"Chilika"
+    },
+    {
+        "type":"true_false",
+        "subject":"polity",
+        "question":"Fundamental Duties were added by 42nd Amendment. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"true_false",
+        "subject":"polity",
+        "question":"The Vice President is the ex-officio Chairman of Rajya Sabha. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"true_false",
+        "subject":"polity",
+        "question":"The President can pardon death sentence in all cases. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"true_false",
+        "subject":"polity",
+        "question":"Article 21 deals with Right to Freedom. (True\/False)",
+        "correct":"False"
+    },
+    {
+        "type":"true_false",
+        "subject":"polity",
+        "question":"The Chief Justice of India retires at age 65. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"true_false",
+        "subject":"polity",
+        "question":"Lok Sabha has a maximum strength of 552 members. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"true_false",
+        "subject":"polity",
+        "question":"Rajya Sabha is a permanent house. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"true_false",
+        "subject":"polity",
+        "question":"The Attorney General has voting rights in Parliament. (True\/False)",
+        "correct":"False"
+    },
+    {
+        "type":"true_false",
+        "subject":"polity",
+        "question":"The Finance Commission is constituted every 5 years. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"true_false",
+        "subject":"polity",
+        "question":"The President can declare emergency only on written advice of Cabinet. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"true_false",
+        "subject":"history",
+        "question":"The Revolt of 1857 began at Meerut. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"true_false",
+        "subject":"history",
+        "question":"Mangal Pandey was hanged after the revolt began. (True\/False)",
+        "correct":"False"
+    },
+    {
+        "type":"true_false",
+        "subject":"history",
+        "question":"Bahadur Shah Zafar was exiled to Rangoon. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"true_false",
+        "subject":"history",
+        "question":"The Cabinet Mission of 1946 rejected the demand for Pakistan. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"true_false",
+        "subject":"history",
+        "question":"Subhash Chandra Bose formed the Indian National Army. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"true_false",
+        "subject":"history",
+        "question":"The Simon Commission was welcomed by Indians. (True\/False)",
+        "correct":"False"
+    },
+    {
+        "type":"true_false",
+        "subject":"history",
+        "question":"The Jallianwala Bagh massacre occurred under Lord Irwin. (True\/False)",
+        "correct":"False"
+    },
+    {
+        "type":"true_false",
+        "subject":"history",
+        "question":"The Non-Cooperation Movement was launched in 1920. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"true_false",
+        "subject":"history",
+        "question":"The Civil Disobedience Movement started with Dandi March. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"true_false",
+        "subject":"history",
+        "question":"The Quit India Movement resolution was passed in 1942. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"true_false",
+        "subject":"geography",
+        "question":"The Tropic of Cancer passes through 8 Indian states. (True\/False)",
+        "correct":"False"
+    },
+    {
+        "type":"true_false",
+        "subject":"geography",
+        "question":"The Ganga originates from Gangotri glacier. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"true_false",
+        "subject":"geography",
+        "question":"The Brahmaputra originates in Tibet. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"true_false",
+        "subject":"geography",
+        "question":"The Narmada flows into the Arabian Sea. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"true_false",
+        "subject":"geography",
+        "question":"The Godavari is the largest peninsular river. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"true_false",
+        "subject":"geography",
+        "question":"Laterite soils are rich in iron and aluminum. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"true_false",
+        "subject":"geography",
+        "question":"Black soils are ideal for tea cultivation. (True\/False)",
+        "correct":"False"
+    },
+    {
+        "type":"true_false",
+        "subject":"geography",
+        "question":"The Himalayas are young fold mountains. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"true_false",
+        "subject":"geography",
+        "question":"The Aravalli are the oldest mountains in India. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"true_false",
+        "subject":"geography",
+        "question":"Loktak Lake in Manipur has floating islands. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"true_false",
+        "subject":"economy",
+        "question":"RBI was nationalized in 1949. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"true_false",
+        "subject":"economy",
+        "question":"GST is a direct tax. (True\/False)",
+        "correct":"False"
+    },
+    {
+        "type":"true_false",
+        "subject":"economy",
+        "question":"Inflation benefits debtors. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"true_false",
+        "subject":"economy",
+        "question":"Deflation benefits creditors. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"true_false",
+        "subject":"economy",
+        "question":"Fiscal deficit includes borrowings. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"true_false",
+        "subject":"economy",
+        "question":"Revenue deficit indicates borrowing for consumption. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"true_false",
+        "subject":"economy",
+        "question":"Primary deficit excludes interest payments. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"true_false",
+        "subject":"economy",
+        "question":"NITI Aayog replaced Planning Commission in 2015. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"true_false",
+        "subject":"economy",
+        "question":"SEBI regulates stock markets in India. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"true_false",
+        "subject":"economy",
+        "question":"IRDAI regulates the insurance sector. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"true_false",
+        "subject":"environment",
+        "question":"Jim Corbett National Park is in Uttarakhand. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"true_false",
+        "subject":"environment",
+        "question":"Kaziranga is famous for one-horned rhino. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"true_false",
+        "subject":"environment",
+        "question":"Gir is the only home for Asiatic lions in the wild. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"true_false",
+        "subject":"environment",
+        "question":"Sundarbans has Royal Bengal Tigers. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"true_false",
+        "subject":"environment",
+        "question":"Project Tiger was launched in 1973. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"true_false",
+        "subject":"environment",
+        "question":"India has 75 Ramsar sites as of 2024. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"true_false",
+        "subject":"environment",
+        "question":"Chilika was India's first Ramsar site. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"true_false",
+        "subject":"environment",
+        "question":"Montreal Protocol protects the ozone layer. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"true_false",
+        "subject":"environment",
+        "question":"Kyoto Protocol deals with greenhouse gases. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"true_false",
+        "subject":"environment",
+        "question":"Paris Agreement is legally binding on all countries. (True\/False)",
+        "correct":"False"
+    }
+]

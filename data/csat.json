@@ -1,0 +1,569 @@
+[
+    {
+        "type":"csat",
+        "level":"medium",
+        "subject":"series",
+        "question":"What is the next number in the sequence: 3, 8, 15, 24, 35, ?",
+        "correct":"48"
+    },
+    {
+        "type":"csat",
+        "level":"medium",
+        "subject":"series",
+        "question":"Find the missing number: 7, 14, 28, 56, 112, ?",
+        "correct":"224"
+    },
+    {
+        "type":"csat",
+        "level":"medium",
+        "subject":"series",
+        "question":"Complete the series: 2, 6, 12, 20, 30, ?",
+        "correct":"42"
+    },
+    {
+        "type":"csat",
+        "level":"medium",
+        "subject":"series",
+        "question":"What comes next: 11, 13, 17, 19, 23, ?",
+        "correct":"29"
+    },
+    {
+        "type":"csat",
+        "level":"medium",
+        "subject":"series",
+        "question":"Find the next term: 5, 12, 26, 54, 110, ?",
+        "correct":"222"
+    },
+    {
+        "type":"csat",
+        "level":"medium",
+        "subject":"blood_relation",
+        "question":"A man pointed to a photograph and said, 'His father is my father-in-law's only son.' How is the man in photograph related to the speaker? (Son\/Brother\/Nephew\/Father)",
+        "correct":"Son"
+    },
+    {
+        "type":"csat",
+        "level":"medium",
+        "subject":"blood_relation",
+        "question":"Introducing a woman, a man said, 'Her mother's husband's sister is my aunt.' How is the woman related to the man? (Sister\/Cousin\/Niece\/Daughter)",
+        "correct":"Cousin"
+    },
+    {
+        "type":"csat",
+        "level":"medium",
+        "subject":"blood_relation",
+        "question":"A told B, 'Your mother's brother's only sister is my mother.' How is A related to B? (Brother\/Sister\/Cousin\/Friend)",
+        "correct":"Cousin"
+    },
+    {
+        "type":"csat",
+        "level":"medium",
+        "subject":"blood_relation",
+        "question":"Pointing to a girl, Raj said, 'Her mother is the only daughter of my father-in-law.' How is Raj related to the girl? (Father\/Uncle\/Brother\/Grandfather)",
+        "correct":"Father"
+    },
+    {
+        "type":"csat",
+        "level":"medium",
+        "subject":"blood_relation",
+        "question":"X said to Y, 'I am the only son of your mother's mother-in-law.' How is X related to Y? (Brother\/Father\/Uncle\/Cousin)",
+        "correct":"Father"
+    },
+    {
+        "type":"csat",
+        "level":"medium",
+        "subject":"direction",
+        "question":"A person walks 15 m towards East, then turns right and walks 20 m, then turns left and walks 10 m, then turns left and walks 20 m. How far is he from the starting point? (5 m\/10 m\/15 m\/25 m)",
+        "correct":"25 m"
+    },
+    {
+        "type":"csat",
+        "level":"medium",
+        "subject":"direction",
+        "question":"From point X, a person walks 30 m North, then 20 m East, then 30 m South. How far is he from X? (10 m\/20 m\/30 m\/40 m)",
+        "correct":"20 m"
+    },
+    {
+        "type":"csat",
+        "level":"medium",
+        "subject":"direction",
+        "question":"A man starts from his house and walks 8 km North, then 6 km East, then 8 km South. How far is he from his house? (6 km\/8 km\/10 km\/14 km)",
+        "correct":"6 km"
+    },
+    {
+        "type":"csat",
+        "level":"medium",
+        "subject":"direction",
+        "question":"Rohan walks 10 km towards North, turns right and walks 15 km, turns right and walks 10 km, turns left and walks 5 km. Which direction is he facing now? (East\/West\/North\/South)",
+        "correct":"East"
+    },
+    {
+        "type":"csat",
+        "level":"medium",
+        "subject":"direction",
+        "question":"Priya walks 25 m West, turns left and walks 30 m, turns left and walks 25 m, turns right and walks 15 m. How far is she from the start? (15 m\/30 m\/45 m\/55 m)",
+        "correct":"45 m"
+    },
+    {
+        "type":"csat",
+        "level":"medium",
+        "subject":"coding",
+        "question":"If 'ROSE' is written as '62' and 'LILY' is written as '50', how will 'TULIP' be written? (71\/73\/75\/77)",
+        "correct":"71"
+    },
+    {
+        "type":"csat",
+        "level":"medium",
+        "subject":"coding",
+        "question":"In a certain code, 'DELHI' is written as '45' and 'MUMBAI' is written as '66'. How will 'CHENNAI' be written? (62\/64\/66\/68)",
+        "correct":"64"
+    },
+    {
+        "type":"csat",
+        "level":"medium",
+        "subject":"coding",
+        "question":"If 'PINK' is coded as '50' and 'BLUE' is coded as '36', how will 'GREEN' be coded? (49\/51\/53\/55)",
+        "correct":"49"
+    },
+    {
+        "type":"csat",
+        "level":"medium",
+        "subject":"coding",
+        "question":"If 3521 is coded as 11, and 6243 is coded as 15, what is the code for 8452? (17\/18\/19\/20)",
+        "correct":"19"
+    },
+    {
+        "type":"csat",
+        "level":"medium",
+        "subject":"coding",
+        "question":"In a code language, if 'TIGER' is coded as '78' and 'LION' is coded as '46', how will 'LEOPARD' be coded? (82\/84\/86\/88)",
+        "correct":"84"
+    },
+    {
+        "type":"csat",
+        "level":"hard",
+        "subject":"series",
+        "question":"What is the missing number: 4, 12, 36, 108, 324, ?",
+        "correct":"972"
+    },
+    {
+        "type":"csat",
+        "level":"hard",
+        "subject":"series",
+        "question":"Find the next term: 7, 26, 63, 124, 215, ?",
+        "correct":"342"
+    },
+    {
+        "type":"csat",
+        "level":"hard",
+        "subject":"series",
+        "question":"Complete the series: 5, 21, 69, 213, 645, ?",
+        "correct":"1941"
+    },
+    {
+        "type":"csat",
+        "level":"hard",
+        "subject":"series",
+        "question":"What comes next: 2, 10, 30, 68, 130, ?",
+        "correct":"222"
+    },
+    {
+        "type":"csat",
+        "level":"hard",
+        "subject":"series",
+        "question":"Find the next number: 11, 25, 45, 71, 103, ?",
+        "correct":"141"
+    },
+    {
+        "type":"csat",
+        "level":"hard",
+        "subject":"blood_relation",
+        "question":"A is B's father's mother-in-law's only daughter. B's mother is C. How is A related to C? (Mother\/Mother-in-law\/Sister\/Aunt)",
+        "correct":"Mother-in-law"
+    },
+    {
+        "type":"csat",
+        "level":"hard",
+        "subject":"blood_relation",
+        "question":"P and Q are married. R is P's sister. S is Q's brother. T is R's daughter. U is S's son. How is T related to U? (Sister\/Cousin\/Niece\/Sibling)",
+        "correct":"Cousin"
+    },
+    {
+        "type":"csat",
+        "level":"hard",
+        "subject":"blood_relation",
+        "question":"X introduced Y saying, 'Her father's mother's only son's daughter is my sister.' How is X related to Y? (Brother\/Sister\/Cousin\/Friend)",
+        "correct":"Cousin"
+    },
+    {
+        "type":"csat",
+        "level":"hard",
+        "subject":"blood_relation",
+        "question":"A told B, 'Your mother's husband's father's only daughter-in-law is my mother.' How is A related to B? (Brother\/Sister\/Cousin\/Friend)",
+        "correct":"Brother"
+    },
+    {
+        "type":"csat",
+        "level":"hard",
+        "subject":"blood_relation",
+        "question":"M is N's father. O is N's brother. P is O's mother. Q is P's father. R is Q's wife. How is R related to M? (Mother\/Mother-in-law\/Wife\/Sister)",
+        "correct":"Mother-in-law"
+    },
+    {
+        "type":"csat",
+        "level":"hard",
+        "subject":"direction",
+        "question":"A person walks 40 m North, turns right and walks 30 m, turns right and walks 40 m, turns left and walks 20 m, turns left and walks 30 m. How far is he from the start? (10 m\/20 m\/30 m\/40 m)",
+        "correct":"10 m"
+    },
+    {
+        "type":"csat",
+        "level":"hard",
+        "subject":"direction",
+        "question":"From point Z, a person walks 25 m East, then 35 m North, then 25 m West, then 15 m South. How far is he from Z? (20 m\/25 m\/30 m\/35 m)",
+        "correct":"20 m"
+    },
+    {
+        "type":"csat",
+        "level":"hard",
+        "subject":"direction",
+        "question":"A man walks 5 km South, turns right and walks 3 km, turns right and walks 5 km, turns left and walks 4 km, turns left and walks 3 km. How far is he from start? (4 km\/5 km\/6 km\/7 km)",
+        "correct":"4 km"
+    },
+    {
+        "type":"csat",
+        "level":"hard",
+        "subject":"direction",
+        "question":"Rakesh walks 12 m North, then 8 m East, then 12 m South, then 4 m West, then 6 m North. How far is he from the starting point? (4 m\/6 m\/8 m\/10 m)",
+        "correct":"6 m"
+    },
+    {
+        "type":"csat",
+        "level":"hard",
+        "subject":"direction",
+        "question":"From point P, a person walks 30 m towards West, then 40 m towards North, then 50 m towards East, then 20 m towards South. How far is he from P? (20\u221a2 m\/25\u221a2 m\/30\u221a2 m\/35\u221a2 m)",
+        "correct":"20\u221a2 m"
+    },
+    {
+        "type":"csat",
+        "level":"hard",
+        "subject":"coding",
+        "question":"If 'MANGALYAAN' is coded as '95' and 'CHANDRAYAAN' is coded as '103', how will 'GAGANYAAN' be coded? (79\/81\/83\/85)",
+        "correct":"81"
+    },
+    {
+        "type":"csat",
+        "level":"hard",
+        "subject":"coding",
+        "question":"In a code, if 742 = 28, 563 = 30, 891 = 42, then 674 = ? (32\/34\/36\/38)",
+        "correct":"36"
+    },
+    {
+        "type":"csat",
+        "level":"hard",
+        "subject":"coding",
+        "question":"If 'DELHI' = 45, 'MUMBAI' = 66, 'KOLKATA' = 84, then 'CHENNAI' = ? (64\/66\/68\/70)",
+        "correct":"64"
+    },
+    {
+        "type":"csat",
+        "level":"hard",
+        "subject":"coding",
+        "question":"In a certain code, 'TIGER' is written as '20-9-7-5-18' and 'LION' is written as '12-9-15-14'. How will 'LEOPARD' be written? (12-5-15-16-1-18-4\/12-5-16-15-1-18-4\/12-5-15-16-1-4-18\/12-5-15-16-1-18-4)",
+        "correct":"12-5-15-16-1-18-4"
+    },
+    {
+        "type":"csat",
+        "level":"hard",
+        "subject":"coding",
+        "question":"If 'INDIA' is coded as '5-4-3-2-1', then 'BHARAT' will be coded as? (2-8-1-18-1-20\/2-8-1-18-20-1\/2-8-1-20-18-1\/20-1-18-1-8-2)",
+        "correct":"2-8-1-18-1-20"
+    },
+    {
+        "type":"csat",
+        "level":"hard",
+        "subject":"analogy",
+        "question":"If 'Oxygen : Combustion', then 'Carbon dioxide : ?' (Photosynthesis\/Respiration\/Global warming\/Acid rain)",
+        "correct":"Photosynthesis"
+    },
+    {
+        "type":"csat",
+        "level":"hard",
+        "subject":"analogy",
+        "question":"If 'Heart : Circulatory', then 'Kidney : ?' (Excretory\/Respiratory\/Digestive\/Nervous)",
+        "correct":"Excretory"
+    },
+    {
+        "type":"csat",
+        "level":"hard",
+        "subject":"analogy",
+        "question":"If 'Lion : Pride', then 'Fish : ?' (School\/Herd\/Flock\/Swarm)",
+        "correct":"School"
+    },
+    {
+        "type":"csat",
+        "level":"hard",
+        "subject":"analogy",
+        "question":"If 'India : Rupee', then 'China : ?' (Yuan\/Yen\/Won\/Dollar)",
+        "correct":"Yuan"
+    },
+    {
+        "type":"csat",
+        "level":"hard",
+        "subject":"analogy",
+        "question":"If 'Kilometer : Distance', then 'Kilogram : ?' (Weight\/Mass\/Gravity\/Force)",
+        "correct":"Weight"
+    },
+    {
+        "type":"csat",
+        "level":"super_hard",
+        "subject":"inequality",
+        "question":"If 'P' means '>', 'Q' means '<', 'R' means '\u2265', 'S' means '\u2264', and 'T' means '=', then evaluate:\r\nStatement 1: If 3x S 2y and 4x T 5z, then 6y P 5z\r\nStatement 2: If 2x Q y and 3y R 4z, then x Q 2z\r\nWhich of the statements is\/are true? (1 only\/2 only\/Both\/Neither)",
+        "correct":"Neither"
+    },
+    {
+        "type":"csat",
+        "level":"super_hard",
+        "subject":"data_sufficiency",
+        "question":"What is the present age of X?\r\nStatement 1: Five years ago, X was twice as old as Y.\r\nStatement 2: After ten years, Y will be half of X's age.\r\nWhich statement alone is sufficient? (1 only\/2 only\/Both needed\/Neither)",
+        "correct":"Both needed"
+    },
+    {
+        "type":"csat",
+        "level":"super_hard",
+        "subject":"data_sufficiency",
+        "question":"Is x\u00b2 > y\u00b2?\r\nStatement 1: x > y\r\nStatement 2: x + y > 0\r\nWhich statement alone is sufficient? (1 only\/2 only\/Both needed\/Neither)",
+        "correct":"Neither"
+    },
+    {
+        "type":"csat",
+        "level":"super_hard",
+        "subject":"data_sufficiency",
+        "question":"What is the profit percentage on an article?\r\nStatement 1: Selling price is 120% of cost price.\r\nStatement 2: Cost price is \u20b9500.\r\nWhich statement alone is sufficient? (1 only\/2 only\/Both needed\/Neither)",
+        "correct":"1 only"
+    },
+    {
+        "type":"csat",
+        "level":"super_hard",
+        "subject":"permutation",
+        "question":"How many different words can be formed using all letters of 'INSTITUTE' such that all vowels are together? (30240\/15120\/7560\/3780)",
+        "correct":"15120"
+    },
+    {
+        "type":"csat",
+        "level":"super_hard",
+        "subject":"permutation",
+        "question":"In how many ways can 5 Indians, 4 Americans, and 3 Britishers sit in a row such that all persons of same nationality sit together? (5!\u00d74!\u00d73!\u00d73!\/5!\u00d74!\u00d73!\u00d73!\u00d72!\/5!\u00d74!\u00d73!\u00d73!\u00d73!\/5!\u00d74!\u00d73!\u00d73!\u00d74!)",
+        "correct":"5!\u00d74!\u00d73!\u00d73!\u00d73!"
+    },
+    {
+        "type":"csat",
+        "level":"super_hard",
+        "subject":"permutation",
+        "question":"How many 4-digit numbers divisible by 5 can be formed using digits 0,1,2,3,4,5 without repetition? (108\/96\/84\/72)",
+        "correct":"108"
+    },
+    {
+        "type":"csat",
+        "level":"super_hard",
+        "subject":"probability",
+        "question":"A bag contains 5 red, 4 blue, and 3 green balls. Three balls are drawn at random. What is the probability that they are of three different colors? (60\/220\/50\/220\/40\/220\/30\/220)",
+        "correct":"60\/220"
+    },
+    {
+        "type":"csat",
+        "level":"super_hard",
+        "subject":"probability",
+        "question":"Two dice are thrown simultaneously. What is the probability that the sum of the numbers appearing is a prime number? (5\/12\/7\/12\/11\/36\/13\/36)",
+        "correct":"5\/12"
+    },
+    {
+        "type":"csat",
+        "level":"super_hard",
+        "subject":"probability",
+        "question":"A speaks truth in 70% cases and B speaks truth in 60% cases. What is the probability that they contradict each other in stating a fact? (0.46\/0.48\/0.52\/0.54)",
+        "correct":"0.46"
+    },
+    {
+        "type":"csat",
+        "level":"super_hard",
+        "subject":"time_work",
+        "question":"A can complete a work in 10 days, B in 15 days. They work together for 5 days, then A leaves. In how many more days will B complete the remaining work? (2.5 days\/3 days\/3.5 days\/4 days)",
+        "correct":"2.5 days"
+    },
+    {
+        "type":"csat",
+        "level":"super_hard",
+        "subject":"time_work",
+        "question":"A is thrice as efficient as B and takes 60 days less than B to complete a work. In how many days can they together complete the work? (22.5 days\/25 days\/27.5 days\/30 days)",
+        "correct":"22.5 days"
+    },
+    {
+        "type":"csat",
+        "level":"super_hard",
+        "subject":"time_work",
+        "question":"Three pipes A, B, C can fill a tank in 20, 30, and 40 minutes respectively. All three are opened together, but after 5 minutes, pipe A is closed. How much more time is needed to fill the tank? (6.5 min\/7.5 min\/8.5 min\/9.5 min)",
+        "correct":"7.5 min"
+    },
+    {
+        "type":"csat",
+        "level":"super_hard",
+        "subject":"time_distance",
+        "question":"A train 120 m long passes another train 180 m long coming from opposite direction in 6 seconds. If their speeds are in ratio 3:2, what is the speed of the faster train? (54 km\/h\/72 km\/h\/90 km\/h\/108 km\/h)",
+        "correct":"54 km\/h"
+    },
+    {
+        "type":"csat",
+        "level":"super_hard",
+        "subject":"time_distance",
+        "question":"A person covers a certain distance at 60 km\/h and returns at 40 km\/h. What is his average speed for the whole journey? (48 km\/h\/50 km\/h\/52 km\/h\/54 km\/h)",
+        "correct":"48 km\/h"
+    },
+    {
+        "type":"csat",
+        "level":"super_hard",
+        "subject":"time_distance",
+        "question":"Two trains start simultaneously from stations A and B towards each other. They meet at a point and take 4 hours and 9 hours respectively to reach their destinations. How much time did they take to meet? (5 hours\/6 hours\/7 hours\/8 hours)",
+        "correct":"6 hours"
+    },
+    {
+        "type":"csat",
+        "level":"super_hard",
+        "subject":"ratio",
+        "question":"If A:B = 2:3, B:C = 4:5, C:D = 6:7, then find A:D. (16:35\/8:15\/4:7\/2:5)",
+        "correct":"16:35"
+    },
+    {
+        "type":"csat",
+        "level":"super_hard",
+        "subject":"ratio",
+        "question":"If a:b = 3:4 and b:c = 5:6, then find a\u00b2:b\u00b2:c\u00b2. (9:16:36\/225:400:576\/9:20:30\/225:400:400)",
+        "correct":"225:400:576"
+    },
+    {
+        "type":"csat",
+        "level":"super_hard",
+        "subject":"mixture",
+        "question":"A 28-liter mixture contains milk and water in ratio 5:2. How much water should be added to make the ratio 7:5? (2 liters\/3 liters\/4 liters\/5 liters)",
+        "correct":"3 liters"
+    },
+    {
+        "type":"csat",
+        "level":"super_hard",
+        "subject":"mixture",
+        "question":"A vessel contains 80 liters of milk. 8 liters is withdrawn and replaced with water. This process is repeated twice. What is the final quantity of milk in the mixture? (64.8 L\/62.5 L\/60.2 L\/58.4 L)",
+        "correct":"64.8 L"
+    },
+    {
+        "type":"csat",
+        "level":"super_hard",
+        "subject":"profit_loss",
+        "question":"If the cost price of 20 articles is equal to the selling price of 15 articles, find the profit or loss percentage. (25% profit\/33.33% profit\/25% loss\/33.33% loss)",
+        "correct":"33.33% profit"
+    },
+    {
+        "type":"csat",
+        "level":"super_hard",
+        "subject":"profit_loss",
+        "question":"A shopkeeper marks goods 30% above cost price and gives a discount of 10%. What is his profit percentage? (17%\/18%\/19%\/20%)",
+        "correct":"17%"
+    },
+    {
+        "type":"csat",
+        "level":"super_hard",
+        "subject":"number_system",
+        "question":"Find the smallest number which when divided by 6, 8, and 9 leaves remainder 4 in each case. (72\/76\/144\/148)",
+        "correct":"76"
+    },
+    {
+        "type":"csat",
+        "level":"super_hard",
+        "subject":"number_system",
+        "question":"If a 5-digit number 750x8 is divisible by 11, find the value of x. (2\/4\/6\/8)",
+        "correct":"4"
+    },
+    {
+        "type":"csat",
+        "level":"super_hard",
+        "subject":"number_system",
+        "question":"What is the sum of all three-digit numbers divisible by 7? (70336\/71071\/72369\/73073)",
+        "correct":"71071"
+    },
+    {
+        "type":"csat",
+        "level":"super_hard",
+        "subject":"clock",
+        "question":"At what time between 4 and 5 o'clock will the hands of a clock coincide? (4:20\/4:21\/4:21.8\/4:22)",
+        "correct":"4:21.8"
+    },
+    {
+        "type":"csat",
+        "level":"super_hard",
+        "subject":"clock",
+        "question":"At what time between 5 and 6 o'clock will the hands of a clock be opposite to each other? (5:00\/5:30\/5:54.5\/5:60)",
+        "correct":"5:54.5"
+    },
+    {
+        "type":"csat",
+        "level":"super_hard",
+        "subject":"clock",
+        "question":"How many times do the hands of a clock form a right angle in a day? (44\/46\/48\/50)",
+        "correct":"44"
+    },
+    {
+        "type":"csat",
+        "level":"super_hard",
+        "subject":"calendar",
+        "question":"If 1st February 2020 was a Saturday, what day was 1st February 2024? (Monday\/Tuesday\/Wednesday\/Thursday)",
+        "correct":"Thursday"
+    },
+    {
+        "type":"csat",
+        "level":"super_hard",
+        "subject":"calendar",
+        "question":"If 5th March 2025 is a Wednesday, what day will be 5th March 2026? (Monday\/Tuesday\/Wednesday\/Thursday)",
+        "correct":"Thursday"
+    },
+    {
+        "type":"csat",
+        "level":"super_hard",
+        "subject":"calendar",
+        "question":"The calendar for the year 2026 will be the same as which year? (2029\/2031\/2037\/2039)",
+        "correct":"2037"
+    },
+    {
+        "type":"csat",
+        "level":"super_hard",
+        "subject":"series",
+        "question":"Find the next term: 1, 4, 27, 16, 125, 36, ? (49\/64\/216\/343)",
+        "correct":"343"
+    },
+    {
+        "type":"csat",
+        "level":"super_hard",
+        "subject":"series",
+        "question":"Complete the series: 2, 6, 30, 260, ? (3120\/3130\/3140\/3150)",
+        "correct":"3120"
+    },
+    {
+        "type":"csat",
+        "level":"super_hard",
+        "subject":"series",
+        "question":"What comes next: 13, 17, 29, 53, 89, ? (117\/129\/137\/149)",
+        "correct":"137"
+    },
+    {
+        "type":"csat",
+        "level":"super_hard",
+        "subject":"series",
+        "question":"Find the missing number: 8, 27, 125, 343, 1331, ? (2197\/2744\/3375\/4096)",
+        "correct":"2197"
+    },
+    {
+        "type":"csat",
+        "level":"super_hard",
+        "subject":"series",
+        "question":"What is the next number: 3, 15, 63, 255, 1023, ? (4095\/8191\/16383\/32767)",
+        "correct":"4095"
+    }
+]

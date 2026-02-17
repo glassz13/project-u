@@ -1,0 +1,530 @@
+[
+    {
+        "type":"rapid_fire",
+        "subject":"polity",
+        "question":"Who is known as the Father of Indian Constitution?",
+        "correct":"Dr. B.R. Ambedkar"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"polity",
+        "question":"Which article abolishes untouchability?",
+        "correct":"Article 17"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"polity",
+        "question":"How many schedules does the Indian Constitution have?",
+        "correct":"12"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"polity",
+        "question":"Who appoints the Prime Minister?",
+        "correct":"President"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"polity",
+        "question":"What is the maximum strength of Lok Sabha?",
+        "correct":"552"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"polity",
+        "question":"Who presides over Rajya Sabha?",
+        "correct":"Vice President"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"polity",
+        "question":"Which writ means 'to have the body of'?",
+        "correct":"Habeas Corpus"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"polity",
+        "question":"Fundamental Rights are in which part of Constitution?",
+        "correct":"Part III"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"polity",
+        "question":"Directive Principles are in which part?",
+        "correct":"Part IV"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"polity",
+        "question":"What is the retirement age of Supreme Court judge?",
+        "correct":"65 years"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"polity",
+        "question":"Who certifies a Money Bill?",
+        "correct":"Speaker of Lok Sabha"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"polity",
+        "question":"Which amendment is called 'Mini-Constitution'?",
+        "correct":"42nd Amendment"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"polity",
+        "question":"How many members can President nominate to Rajya Sabha?",
+        "correct":"12"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"polity",
+        "question":"What is the tenure of Lok Sabha?",
+        "correct":"5 years"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"polity",
+        "question":"Who is the Supreme Commander of Armed Forces?",
+        "correct":"President"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"polity",
+        "question":"Who is the first law officer of India?",
+        "correct":"Attorney General"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"polity",
+        "question":"Which article deals with impeachment of President?",
+        "correct":"Article 61"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"polity",
+        "question":"What is the maximum gap between two Parliament sessions?",
+        "correct":"6 months"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"polity",
+        "question":"Who appoints the Chief Election Commissioner?",
+        "correct":"President"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"polity",
+        "question":"How many Fundamental Duties are there?",
+        "correct":"11"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"history",
+        "question":"Who founded the Indian National Congress?",
+        "correct":"A.O. Hume"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"history",
+        "question":"When did the Revolt of 1857 occur?",
+        "correct":"1857"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"history",
+        "question":"Who was the last Viceroy of India?",
+        "correct":"Lord Mountbatten"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"history",
+        "question":"Who gave the slogan 'Jai Hind'?",
+        "correct":"Subhash Chandra Bose"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"history",
+        "question":"Where did Gandhi start his first Satyagraha in India?",
+        "correct":"Champaran"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"history",
+        "question":"When was the Jallianwala Bagh massacre?",
+        "correct":"1919"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"history",
+        "question":"Who wrote 'Anandmath'?",
+        "correct":"Bankim Chandra Chatterjee"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"history",
+        "question":"Which Act introduced Dyarchy?",
+        "correct":"Government of India Act 1919"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"history",
+        "question":"Who was the first Governor General of Independent India?",
+        "correct":"Lord Mountbatten"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"history",
+        "question":"When did the Quit India Movement start?",
+        "correct":"1942"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"history",
+        "question":"Who was the first Indian to win Nobel Prize?",
+        "correct":"Rabindranath Tagore"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"history",
+        "question":"Which movement is associated with 'Do or Die'?",
+        "correct":"Quit India Movement"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"history",
+        "question":"Who was the founder of Arya Samaj?",
+        "correct":"Swami Dayanand Saraswati"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"history",
+        "question":"When was the Non-Cooperation Movement launched?",
+        "correct":"1920"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"history",
+        "question":"Who was the first President of Indian National Congress?",
+        "correct":"W.C. Bannerjee"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"history",
+        "question":"Who is called the 'Frontier Gandhi'?",
+        "correct":"Khan Abdul Ghaffar Khan"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"history",
+        "question":"When did the Civil Disobedience Movement start?",
+        "correct":"1930"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"history",
+        "question":"Who founded the Aligarh Muslim University?",
+        "correct":"Sir Syed Ahmed Khan"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"history",
+        "question":"Who was the first Governor of Bengal?",
+        "correct":"Robert Clive"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"history",
+        "question":"When did the Simon Commission come to India?",
+        "correct":"1928"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"geography",
+        "question":"Which is the longest river in India?",
+        "correct":"Ganga"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"geography",
+        "question":"Which is the largest state by area?",
+        "correct":"Rajasthan"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"geography",
+        "question":"Which is the smallest state by area?",
+        "correct":"Goa"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"geography",
+        "question":"Which is the highest peak in India?",
+        "correct":"Kanchenjunga"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"geography",
+        "question":"Which latitude passes through India?",
+        "correct":"Tropic of Cancer"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"geography",
+        "question":"Which is the largest freshwater lake in India?",
+        "correct":"Wular Lake"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"geography",
+        "question":"Which is the saltiest lake in India?",
+        "correct":"Sambhar Lake"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"geography",
+        "question":"Which river is called 'Dakshin Ganga'?",
+        "correct":"Godavari"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"geography",
+        "question":"Which soil is best for cotton?",
+        "correct":"Black soil"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"geography",
+        "question":"Which is the wettest place in India?",
+        "correct":"Mawsynram"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"geography",
+        "question":"Which state has the longest coastline?",
+        "correct":"Gujarat"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"geography",
+        "question":"Which is the largest river island in the world?",
+        "correct":"Majuli"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"geography",
+        "question":"Which is the largest delta in India?",
+        "correct":"Sundarbans"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"geography",
+        "question":"Which pass connects Manali to Leh?",
+        "correct":"Rohtang Pass"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"geography",
+        "question":"Which is the highest waterfall in India?",
+        "correct":"Kunchikal Falls"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"geography",
+        "question":"Which state is known as the 'Spice Garden of India'?",
+        "correct":"Kerala"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"geography",
+        "question":"Which river is known as the 'Sorrow of Bengal'?",
+        "correct":"Damodar"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"geography",
+        "question":"Which is the largest lagoon in India?",
+        "correct":"Chilika Lake"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"geography",
+        "question":"Which mountain range separates India from China?",
+        "correct":"Himalayas"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"geography",
+        "question":"Which is the oldest mountain range in India?",
+        "correct":"Aravalli"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"economy",
+        "question":"When was RBI nationalized?",
+        "correct":"1949"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"economy",
+        "question":"What is the full form of GDP?",
+        "correct":"Gross Domestic Product"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"economy",
+        "question":"What is the rate at which RBI lends to banks?",
+        "correct":"Repo Rate"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"economy",
+        "question":"What is the rate at which RBI borrows from banks?",
+        "correct":"Reverse Repo Rate"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"economy",
+        "question":"What is the full form of GST?",
+        "correct":"Goods and Services Tax"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"economy",
+        "question":"When was GST introduced?",
+        "correct":"2017"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"economy",
+        "question":"Who presents the Union Budget?",
+        "correct":"Finance Minister"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"economy",
+        "question":"What is the full form of NITI Aayog?",
+        "correct":"National Institution for Transforming India"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"economy",
+        "question":"When was NITI Aayog formed?",
+        "correct":"2015"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"economy",
+        "question":"What is the full form of CRR?",
+        "correct":"Cash Reserve Ratio"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"economy",
+        "question":"What is the full form of SLR?",
+        "correct":"Statutory Liquidity Ratio"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"economy",
+        "question":"What is 'Ad Valorem' based on?",
+        "correct":"Value of goods"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"economy",
+        "question":"What is the full form of FDI?",
+        "correct":"Foreign Direct Investment"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"economy",
+        "question":"What is the full form of FII?",
+        "correct":"Foreign Institutional Investment"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"economy",
+        "question":"Which is the apex bank of India?",
+        "correct":"RBI"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"economy",
+        "question":"What is the full form of IMF?",
+        "correct":"International Monetary Fund"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"economy",
+        "question":"What is the full form of WTO?",
+        "correct":"World Trade Organization"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"economy",
+        "question":"What is the full form of MGNREGA?",
+        "correct":"Mahatma Gandhi National Rural Employment Guarantee Act"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"environment",
+        "question":"Which is India's first national park?",
+        "correct":"Jim Corbett"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"environment",
+        "question":"When was Project Tiger launched?",
+        "correct":"1973"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"environment",
+        "question":"Which animal is found in Gir?",
+        "correct":"Asiatic Lion"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"environment",
+        "question":"Which animal is Kaziranga famous for?",
+        "correct":"One-horned Rhino"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"environment",
+        "question":"Which is the largest mangrove forest in India?",
+        "correct":"Sundarbans"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"environment",
+        "question":"What is the full form of IUCN?",
+        "correct":"International Union for Conservation of Nature"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"environment",
+        "question":"Which convention protects wetlands?",
+        "correct":"Ramsar Convention"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"environment",
+        "question":"How many Ramsar sites in India?",
+        "correct":"75"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"environment",
+        "question":"Which was India's first Ramsar site?",
+        "correct":"Chilika Lake"
+    },
+    {
+        "type":"rapid_fire",
+        "subject":"environment",
+        "question":"What is the full form of UNFCCC?",
+        "correct":"United Nations Framework Convention on Climate Change"
+    }
+]

@@ -1,0 +1,794 @@
+[
+    {
+        "type":"odd_one",
+        "subject":"environment",
+        "question":"Find the odd one out: (Jim Corbett\/Kaziranga\/Gir\/Sundarbans)",
+        "correct":"Sundarbans"
+    },
+    {
+        "type":"odd_one",
+        "subject":"environment",
+        "question":"Find the odd one out: (Ramsar\/Montreal\/Kyoto\/Paris)",
+        "correct":"Ramsar"
+    },
+    {
+        "type":"odd_one",
+        "subject":"environment",
+        "question":"Find the odd one out: (Mangroves\/Tropical Rainforests\/Alpine Forests\/Mangroves)",
+        "correct":"Alpine Forests"
+    },
+    {
+        "type":"odd_one",
+        "subject":"environment",
+        "question":"Find the odd one out: (Methane\/Carbon Dioxide\/Oxygen\/Nitrous Oxide)",
+        "correct":"Oxygen"
+    },
+    {
+        "type":"odd_one",
+        "subject":"environment",
+        "question":"Find the odd one out: (Project Tiger\/Project Elephant\/Project Rhino\/Project Dolphin)",
+        "correct":"Project Dolphin"
+    },
+    {
+        "type":"odd_one",
+        "subject":"environment",
+        "question":"Find the odd one out: (Critically Endangered\/Endangered\/Vulnerable\/Least Concern)",
+        "correct":"Least Concern"
+    },
+    {
+        "type":"odd_one",
+        "subject":"environment",
+        "question":"Find the odd one out: (Biodiversity Hotspot\/Ecological Hotspot\/Endemic Species\/Keystone Species)",
+        "correct":"Keystone Species"
+    },
+    {
+        "type":"odd_one",
+        "subject":"environment",
+        "question":"Find the odd one out: (National Park\/Wildlife Sanctuary\/Biosphere Reserve\/Zoo)",
+        "correct":"Zoo"
+    },
+    {
+        "type":"odd_one",
+        "subject":"environment",
+        "question":"Find the odd one out: (Lion\/Tiger\/Leopard\/Cheetah)",
+        "correct":"Cheetah"
+    },
+    {
+        "type":"odd_one",
+        "subject":"environment",
+        "question":"Find the odd one out: (Ganges Dolphin\/Irrawaddy Dolphin\/Humpback Dolphin\/Bottlenose Dolphin)",
+        "correct":"Bottlenose Dolphin"
+    },
+    {
+        "type":"odd_one",
+        "subject":"economy",
+        "question":"Find the odd one out: (Repo Rate\/Reverse Repo\/CRR\/SLR)",
+        "correct":"Reverse Repo"
+    },
+    {
+        "type":"odd_one",
+        "subject":"economy",
+        "question":"Find the odd one out: (GDP\/GNP\/NNP\/PPP)",
+        "correct":"PPP"
+    },
+    {
+        "type":"odd_one",
+        "subject":"economy",
+        "question":"Find the odd one out: (Income Tax\/Corporate Tax\/GST\/Customs Duty)",
+        "correct":"GST"
+    },
+    {
+        "type":"odd_one",
+        "subject":"economy",
+        "question":"Find the odd one out: (RBI\/SEBI\/IRDAI\/NABARD)",
+        "correct":"NABARD"
+    },
+    {
+        "type":"odd_one",
+        "subject":"economy",
+        "question":"Find the odd one out: (Inflation\/Deflation\/Stagflation\/Recession)",
+        "correct":"Recession"
+    },
+    {
+        "type":"odd_one",
+        "subject":"economy",
+        "question":"Find the odd one out: (Fiscal Deficit\/Revenue Deficit\/Primary Deficit\/Trade Deficit)",
+        "correct":"Trade Deficit"
+    },
+    {
+        "type":"odd_one",
+        "subject":"economy",
+        "question":"Find the odd one out: (Direct Tax\/Indirect Tax\/Progressive Tax\/Regressive Tax)",
+        "correct":"Regressive Tax"
+    },
+    {
+        "type":"odd_one",
+        "subject":"economy",
+        "question":"Find the odd one out: (Five Year Plan\/Annual Budget\/Economic Survey\/Finance Commission)",
+        "correct":"Finance Commission"
+    },
+    {
+        "type":"odd_one",
+        "subject":"economy",
+        "question":"Find the odd one out: (Public Sector\/Private Sector\/Joint Sector\/Cooperative Sector)",
+        "correct":"Cooperative Sector"
+    },
+    {
+        "type":"odd_one",
+        "subject":"economy",
+        "question":"Find the odd one out: (Monetary Policy\/Fiscal Policy\/Trade Policy\/Industrial Policy)",
+        "correct":"Industrial Policy"
+    },
+    {
+        "type":"odd_one",
+        "subject":"science",
+        "question":"Find the odd one out: (ISRO\/DRDO\/BARC\/CBI)",
+        "correct":"CBI"
+    },
+    {
+        "type":"odd_one",
+        "subject":"science",
+        "question":"Find the odd one out: (PSLV\/GSLV\/ASLV\/BrahMos)",
+        "correct":"BrahMos"
+    },
+    {
+        "type":"odd_one",
+        "subject":"science",
+        "question":"Find the odd one out: (Agni\/Prithvi\/Akash\/BrahMos)",
+        "correct":"BrahMos"
+    },
+    {
+        "type":"odd_one",
+        "subject":"science",
+        "question":"Find the odd one out: (Mangalyaan\/Chandrayaan\/Gaganyaan\/Aryabhata)",
+        "correct":"Aryabhata"
+    },
+    {
+        "type":"odd_one",
+        "subject":"science",
+        "question":"Find the odd one out: (Cryogenic Engine\/Semi-Cryogenic Engine\/Ramjet Engine\/Ion Engine)",
+        "correct":"Ion Engine"
+    },
+    {
+        "type":"odd_one",
+        "subject":"science",
+        "question":"Find the odd one out: (INS Vikrant\/INS Vikramaditya\/INS Arihant\/INS Chennai)",
+        "correct":"INS Chennai"
+    },
+    {
+        "type":"odd_one",
+        "subject":"science",
+        "question":"Find the odd one out: (Tejas\/Rafale\/Sukhoi\/Mirage)",
+        "correct":"Tejas"
+    },
+    {
+        "type":"odd_one",
+        "subject":"science",
+        "question":"Find the odd one out: (Arjun\/T-90\/Abrams\/BMP-2)",
+        "correct":"Abrams"
+    },
+    {
+        "type":"odd_one",
+        "subject":"science",
+        "question":"Find the odd one out: (Nuclear Fission\/Nuclear Fusion\/Thermal Power\/Hydel Power)",
+        "correct":"Hydel Power"
+    },
+    {
+        "type":"odd_one",
+        "subject":"science",
+        "question":"Find the odd one out: (COVID-19\/SARS\/MERS\/HIV)",
+        "correct":"HIV"
+    },
+    {
+        "type":"multiple_correct",
+        "subject":"polity",
+        "question":"Consider the following statements about Fundamental Rights:\r\n1. They are available against State action\r\n2. Some are available against private individuals\r\n3. They are absolute and cannot be restricted\r\n4. They can be suspended during Emergency except Articles 20 and 21\r\n\r\nWhich of the above statements are correct?\r\nA. 1,2 and 3 only\r\nB. 1,2 and 4 only\r\nC. 2,3 and 4 only\r\nD. 1,3 and 4 only",
+        "correct":"B"
+    },
+    {
+        "type":"multiple_correct",
+        "subject":"polity",
+        "question":"Consider the following about the President of India:\r\n1. He is elected by an electoral college\r\n2. He holds office for 5 years\r\n3. He can be removed by impeachment for violation of Constitution\r\n4. He is eligible for re-election any number of times\r\n\r\nWhich of the above statements are correct?\r\nA. 1,2 and 3 only\r\nB. 1,2 and 4 only\r\nC. 1,3 and 4 only\r\nD. 1,2,3 and 4",
+        "correct":"D"
+    },
+    {
+        "type":"multiple_correct",
+        "subject":"polity",
+        "question":"Consider the following about Parliament:\r\n1. Lok Sabha maximum strength is 552\r\n2. Rajya Sabha is a permanent house\r\n3. President nominates 12 members to Rajya Sabha\r\n4. Speaker of Lok Sabha is elected by members of Lok Sabha\r\n\r\nWhich of the above statements are correct?\r\nA. 1,2 and 3 only\r\nB. 1,2 and 4 only\r\nC. 1,3 and 4 only\r\nD. 1,2,3 and 4",
+        "correct":"D"
+    },
+    {
+        "type":"multiple_correct",
+        "subject":"polity",
+        "question":"Consider the following about Supreme Court:\r\n1. Judges retire at age 65\r\n2. President appoints Chief Justice of India\r\n3. Minimum number of judges for constitutional bench is 5\r\n4. Its jurisdiction includes disputes between states\r\n\r\nWhich of the above statements are correct?\r\nA. 1,2 and 3 only\r\nB. 1,2 and 4 only\r\nC. 1,3 and 4 only\r\nD. 1,2,3 and 4",
+        "correct":"D"
+    },
+    {
+        "type":"multiple_correct",
+        "subject":"polity",
+        "question":"Consider the following about Governor:\r\n1. He is appointed by President\r\n2. He holds office during pleasure of President\r\n3. He can be removed by state legislature\r\n4. He appoints Chief Minister\r\n\r\nWhich of the above statements are correct?\r\nA. 1,2 and 3 only\r\nB. 1,2 and 4 only\r\nC. 1,3 and 4 only\r\nD. 1,2,3 and 4",
+        "correct":"B"
+    },
+    {
+        "type":"multiple_correct",
+        "subject":"polity",
+        "question":"Consider the following about Constitutional Amendments:\r\n1. 42nd Amendment added Fundamental Duties\r\n2. 44th Amendment removed Right to Property from FRs\r\n3. 73rd Amendment gave constitutional status to Panchayats\r\n4. 86th Amendment made education a Fundamental Right\r\n\r\nWhich of the above statements are correct?\r\nA. 1,2 and 3 only\r\nB. 1,2 and 4 only\r\nC. 1,3 and 4 only\r\nD. 1,2,3 and 4",
+        "correct":"D"
+    },
+    {
+        "type":"multiple_correct",
+        "subject":"polity",
+        "question":"Consider the following about Emergency Provisions:\r\n1. National Emergency can be declared on grounds of war, external aggression or armed rebellion\r\n2. President's Rule can be imposed if state government fails\r\n3. Financial Emergency has never been imposed\r\n4. Fundamental Rights cannot be suspended during Financial Emergency\r\n\r\nWhich of the above statements are correct?\r\nA. 1,2 and 3 only\r\nB. 1,2 and 4 only\r\nC. 1,3 and 4 only\r\nD. 1,2,3 and 4",
+        "correct":"D"
+    },
+    {
+        "type":"multiple_correct",
+        "subject":"polity",
+        "question":"Consider the following about Election Commission:\r\n1. It is a multi-member body\r\n2. Chief Election Commissioner cannot be removed easily\r\n3. It conducts elections to Parliament and State Legislatures\r\n4. It also conducts elections to local bodies\r\n\r\nWhich of the above statements are correct?\r\nA. 1,2 and 3 only\r\nB. 1,2 and 4 only\r\nC. 1,3 and 4 only\r\nD. 1,2,3 and 4",
+        "correct":"A"
+    },
+    {
+        "type":"multiple_correct",
+        "subject":"polity",
+        "question":"Consider the following about Finance Commission:\r\n1. It is constituted by President every 5 years\r\n2. It recommends distribution of taxes between Centre and States\r\n3. Its recommendations are binding on government\r\n4. It consists of a Chairman and 4 members\r\n\r\nWhich of the above statements are correct?\r\nA. 1,2 and 3 only\r\nB. 1,2 and 4 only\r\nC. 1,3 and 4 only\r\nD. 1,2,3 and 4",
+        "correct":"B"
+    },
+    {
+        "type":"multiple_correct",
+        "subject":"polity",
+        "question":"Consider the following about CAG:\r\n1. He is appointed by President\r\n2. He holds office for 6 years or up to age 65\r\n3. He audits accounts of Centre and States\r\n4. He is eligible for further government employment\r\n\r\nWhich of the above statements are correct?\r\nA. 1,2 and 3 only\r\nB. 1,2 and 4 only\r\nC. 1,3 and 4 only\r\nD. 1,2,3 and 4",
+        "correct":"A"
+    },
+    {
+        "type":"multiple_correct",
+        "subject":"history",
+        "question":"Consider the following about Indus Valley Civilization:\r\n1. It was a bronze age civilization\r\n2. It had trade relations with Mesopotamia\r\n3. It had no knowledge of iron\r\n4. It had a written script that is deciphered\r\n\r\nWhich of the above statements are correct?\r\nA. 1,2 and 3 only\r\nB. 1,2 and 4 only\r\nC. 1,3 and 4 only\r\nD. 2,3 and 4 only",
+        "correct":"A"
+    },
+    {
+        "type":"multiple_correct",
+        "subject":"history",
+        "question":"Consider the following about Ashoka:\r\n1. He embraced Buddhism after Kalinga War\r\n2. He spread Buddhism to Sri Lanka and Southeast Asia\r\n3. He appointed Dhamma Mahamatras\r\n4. He persecuted Jains and Ajivikas\r\n\r\nWhich of the above statements are correct?\r\nA. 1,2 and 3 only\r\nB. 1,2 and 4 only\r\nC. 1,3 and 4 only\r\nD. 2,3 and 4 only",
+        "correct":"A"
+    },
+    {
+        "type":"multiple_correct",
+        "subject":"history",
+        "question":"Consider the following about Gupta Empire:\r\n1. It is called Golden Age of India\r\n2. Aryabhata and Kalidasa lived during this period\r\n3. Nalanda University flourished\r\n4. The caste system became rigid\r\n\r\nWhich of the above statements are correct?\r\nA. 1,2 and 3 only\r\nB. 1,2 and 4 only\r\nC. 1,3 and 4 only\r\nD. 1,2,3 and 4",
+        "correct":"D"
+    },
+    {
+        "type":"multiple_correct",
+        "subject":"history",
+        "question":"Consider the following about Delhi Sultanate:\r\n1. Qutubuddin Aibak was founder of Slave Dynasty\r\n2. Alauddin Khilji introduced market control measures\r\n3. Muhammad bin Tughlaq shifted capital to Daulatabad\r\n4. Ibrahim Lodhi was defeated by Babur in First Battle of Panipat\r\n\r\nWhich of the above statements are correct?\r\nA. 1,2 and 3 only\r\nB. 1,2 and 4 only\r\nC. 1,3 and 4 only\r\nD. 1,2,3 and 4",
+        "correct":"D"
+    },
+    {
+        "type":"multiple_correct",
+        "subject":"history",
+        "question":"Consider the following about Mughal Empire:\r\n1. Akbar founded Din-i-Ilahi\r\n2. Shah Jahan built Taj Mahal\r\n3. Aurangzeb reintroduced Jizya\r\n4. Babur wrote Tuzuk-i-Baburi in Persian\r\n\r\nWhich of the above statements are correct?\r\nA. 1,2 and 3 only\r\nB. 1,2 and 4 only\r\nC. 1,3 and 4 only\r\nD. 1,2,3 and 4",
+        "correct":"A"
+    },
+    {
+        "type":"multiple_correct",
+        "subject":"history",
+        "question":"Consider the following about Revolt of 1857:\r\n1. It began at Meerut\r\n2. Mangal Pandey was executed before the revolt\r\n3. Bahadur Shah Zafar was declared leader\r\n4. It was completely pan-India\r\n\r\nWhich of the above statements are correct?\r\nA. 1,2 and 3 only\r\nB. 1,2 and 4 only\r\nC. 1,3 and 4 only\r\nD. 2,3 and 4 only",
+        "correct":"A"
+    },
+    {
+        "type":"multiple_correct",
+        "subject":"history",
+        "question":"Consider the following about Indian National Congress:\r\n1. It was founded in 1885\r\n2. A.O. Hume was its founder\r\n3. First President was W.C. Bannerjee\r\n4. It demanded complete independence from beginning\r\n\r\nWhich of the above statements are correct?\r\nA. 1,2 and 3 only\r\nB. 1,2 and 4 only\r\nC. 1,3 and 4 only\r\nD. 2,3 and 4 only",
+        "correct":"A"
+    },
+    {
+        "type":"multiple_correct",
+        "subject":"history",
+        "question":"Consider the following about Gandhian Movements:\r\n1. Champaran Satyagraha was against indigo planters\r\n2. Non-Cooperation Movement was launched after Jallianwala Bagh\r\n3. Civil Disobedience Movement started with Dandi March\r\n4. Quit India Movement was launched in 1942\r\n\r\nWhich of the above statements are correct?\r\nA. 1,2 and 3 only\r\nB. 1,2 and 4 only\r\nC. 1,3 and 4 only\r\nD. 1,2,3 and 4",
+        "correct":"D"
+    },
+    {
+        "type":"multiple_correct",
+        "subject":"history",
+        "question":"Consider the following about Cabinet Mission Plan 1946:\r\n1. It rejected the demand for Pakistan\r\n2. It proposed a federal union\r\n3. It proposed grouping of provinces\r\n4. It was accepted by both Congress and Muslim League\r\n\r\nWhich of the above statements are correct?\r\nA. 1,2 and 3 only\r\nB. 1,2 and 4 only\r\nC. 1,3 and 4 only\r\nD. 2,3 and 4 only",
+        "correct":"A"
+    },
+    {
+        "type":"multiple_correct",
+        "subject":"history",
+        "question":"Consider the following about Indian Constitution:\r\n1. It was adopted on 26 November 1949\r\n2. It came into effect on 26 January 1950\r\n3. Dr. B.R. Ambedkar was Chairman of Drafting Committee\r\n4. It was completely indigenous with no foreign influence\r\n\r\nWhich of the above statements are correct?\r\nA. 1,2 and 3 only\r\nB. 1,2 and 4 only\r\nC. 1,3 and 4 only\r\nD. 2,3 and 4 only",
+        "correct":"A"
+    },
+    {
+        "type":"multiple_correct",
+        "subject":"geography",
+        "question":"Consider the following about Himalayas:\r\n1. They are young fold mountains\r\n2. They stretch from Indus to Brahmaputra\r\n3. They are divided into Greater, Lesser and Outer Himalayas\r\n4. They are source of all major north Indian rivers\r\n\r\nWhich of the above statements are correct?\r\nA. 1,2 and 3 only\r\nB. 1,2 and 4 only\r\nC. 1,3 and 4 only\r\nD. 1,2,3 and 4",
+        "correct":"D"
+    },
+    {
+        "type":"multiple_correct",
+        "subject":"geography",
+        "question":"Consider the following about Indian Rivers:\r\n1. Ganga originates from Gangotri glacier\r\n2. Brahmaputra originates in Tibet\r\n3. Narmada flows west into Arabian Sea\r\n4. Godavari is largest peninsular river\r\n\r\nWhich of the above statements are correct?\r\nA. 1,2 and 3 only\r\nB. 1,2 and 4 only\r\nC. 1,3 and 4 only\r\nD. 1,2,3 and 4",
+        "correct":"D"
+    },
+    {
+        "type":"multiple_correct",
+        "subject":"geography",
+        "question":"Consider the following about Indian Soils:\r\n1. Black soil is ideal for cotton\r\n2. Alluvial soil is found in northern plains\r\n3. Laterite soil is rich in iron and aluminum\r\n4. Red soil is poor in nitrogen\r\n\r\nWhich of the above statements are correct?\r\nA. 1,2 and 3 only\r\nB. 1,2 and 4 only\r\nC. 1,3 and 4 only\r\nD. 1,2,3 and 4",
+        "correct":"D"
+    },
+    {
+        "type":"multiple_correct",
+        "subject":"geography",
+        "question":"Consider the following about Western Ghats:\r\n1. They are older than Himalayas\r\n2. They are UNESCO World Heritage Site\r\n3. Anaimudi is highest peak\r\n4. They are biodiversity hotspot\r\n\r\nWhich of the above statements are correct?\r\nA. 1,2 and 3 only\r\nB. 1,2 and 4 only\r\nC. 1,3 and 4 only\r\nD. 1,2,3 and 4",
+        "correct":"D"
+    },
+    {
+        "type":"multiple_correct",
+        "subject":"geography",
+        "question":"Consider the following about Indian Climate:\r\n1. India has tropical monsoon climate\r\n2. Southwest monsoon brings most rainfall\r\n3. Northeast monsoon affects Tamil Nadu coast\r\n4. El Nino weakens Indian monsoon\r\n\r\nWhich of the above statements are correct?\r\nA. 1,2 and 3 only\r\nB. 1,2 and 4 only\r\nC. 1,3 and 4 only\r\nD. 1,2,3 and 4",
+        "correct":"D"
+    },
+    {
+        "type":"multiple_correct",
+        "subject":"geography",
+        "question":"Consider the following about Indian Lakes:\r\n1. Chilika is largest saltwater lake\r\n2. Wular is largest freshwater lake\r\n3. Sambhar is saltwater lake in Rajasthan\r\n4. Loktak has floating islands\r\n\r\nWhich of the above statements are correct?\r\nA. 1,2 and 3 only\r\nB. 1,2 and 4 only\r\nC. 1,3 and 4 only\r\nD. 1,2,3 and 4",
+        "correct":"D"
+    },
+    {
+        "type":"multiple_correct",
+        "subject":"geography",
+        "question":"Consider the following about Indian States:\r\n1. Rajasthan is largest by area\r\n2. Goa is smallest by area\r\n3. Uttar Pradesh has highest population\r\n4. Sikkim has lowest population\r\n\r\nWhich of the above statements are correct?\r\nA. 1,2 and 3 only\r\nB. 1,2 and 4 only\r\nC. 1,3 and 4 only\r\nD. 1,2,3 and 4",
+        "correct":"A"
+    },
+    {
+        "type":"multiple_correct",
+        "subject":"geography",
+        "question":"Consider the following about Indian Passes:\r\n1. Rohtang Pass connects Manali to Leh\r\n2. Nathu La is in Sikkim\r\n3. Zoji La is in Jammu and Kashmir\r\n4. Bolan Pass is in India\r\n\r\nWhich of the above statements are correct?\r\nA. 1,2 and 3 only\r\nB. 1,2 and 4 only\r\nC. 1,3 and 4 only\r\nD. 2,3 and 4 only",
+        "correct":"A"
+    },
+    {
+        "type":"multiple_correct",
+        "subject":"geography",
+        "question":"Consider the following about Indian Minerals:\r\n1. Coal is found in Chotanagpur plateau\r\n2. Iron ore is found in Odisha\r\n3. Mica is found in Jharkhand\r\n4. Gold is found in Karnataka\r\n\r\nWhich of the above statements are correct?\r\nA. 1,2 and 3 only\r\nB. 1,2 and 4 only\r\nC. 1,3 and 4 only\r\nD. 1,2,3 and 4",
+        "correct":"D"
+    },
+    {
+        "type":"multiple_correct",
+        "subject":"environment",
+        "question":"Consider the following about National Parks:\r\n1. Jim Corbett is India's oldest national park\r\n2. Kaziranga is famous for one-horned rhino\r\n3. Gir is only home for Asiatic lions\r\n4. Sundarbans has Royal Bengal Tigers\r\n\r\nWhich of the above statements are correct?\r\nA. 1,2 and 3 only\r\nB. 1,2 and 4 only\r\nC. 1,3 and 4 only\r\nD. 1,2,3 and 4",
+        "correct":"D"
+    },
+    {
+        "type":"multiple_correct",
+        "subject":"environment",
+        "question":"Consider the following about Tiger Reserves:\r\n1. Project Tiger was launched in 1973\r\n2. Tiger is national animal of India\r\n3. Tiger is under Schedule I of Wildlife Protection Act\r\n4. India has 50+ tiger reserves\r\n\r\nWhich of the above statements are correct?\r\nA. 1,2 and 3 only\r\nB. 1,2 and 4 only\r\nC. 1,3 and 4 only\r\nD. 1,2,3 and 4",
+        "correct":"A"
+    },
+    {
+        "type":"multiple_correct",
+        "subject":"environment",
+        "question":"Consider the following about Ramsar Convention:\r\n1. It deals with wetland conservation\r\n2. India has 75 Ramsar sites\r\n3. Chilika was India's first Ramsar site\r\n4. Montreux Record lists endangered wetlands\r\n\r\nWhich of the above statements are correct?\r\nA. 1,2 and 3 only\r\nB. 1,2 and 4 only\r\nC. 1,3 and 4 only\r\nD. 1,2,3 and 4",
+        "correct":"D"
+    },
+    {
+        "type":"multiple_correct",
+        "subject":"environment",
+        "question":"Consider the following about Climate Change Conventions:\r\n1. Montreal Protocol protects ozone layer\r\n2. Kyoto Protocol deals with greenhouse gases\r\n3. Paris Agreement aims to limit temperature rise\r\n4. COP meetings are held annually\r\n\r\nWhich of the above statements are correct?\r\nA. 1,2 and 3 only\r\nB. 1,2 and 4 only\r\nC. 1,3 and 4 only\r\nD. 1,2,3 and 4",
+        "correct":"D"
+    },
+    {
+        "type":"multiple_correct",
+        "subject":"environment",
+        "question":"Consider the following about IUCN:\r\n1. It publishes Red List of endangered species\r\n2. Critically Endangered is highest threat category\r\n3. Vulnerable is lower threat than Endangered\r\n4. Extinct in Wild means species survives only in captivity\r\n\r\nWhich of the above statements are correct?\r\nA. 1,2 and 3 only\r\nB. 1,2 and 4 only\r\nC. 1,3 and 4 only\r\nD. 1,2,3 and 4",
+        "correct":"D"
+    },
+    {
+        "type":"multiple_correct",
+        "subject":"environment",
+        "question":"Consider the following about Biodiversity Hotspots:\r\n1. They have high endemism\r\n2. They have lost significant habitat\r\n3. Western Ghats is a biodiversity hotspot\r\n4. Indo-Burma is not a biodiversity hotspot\r\n\r\nWhich of the above statements are correct?\r\nA. 1,2 and 3 only\r\nB. 1,2 and 4 only\r\nC. 1,3 and 4 only\r\nD. 2,3 and 4 only",
+        "correct":"A"
+    },
+    {
+        "type":"multiple_correct",
+        "subject":"economy",
+        "question":"Consider the following about RBI:\r\n1. It was nationalized in 1949\r\n2. It regulates monetary policy\r\n3. It issues currency notes\r\n4. It regulates stock markets\r\n\r\nWhich of the above statements are correct?\r\nA. 1,2 and 3 only\r\nB. 1,2 and 4 only\r\nC. 1,3 and 4 only\r\nD. 2,3 and 4 only",
+        "correct":"A"
+    },
+    {
+        "type":"multiple_correct",
+        "subject":"economy",
+        "question":"Consider the following about Monetary Policy Tools:\r\n1. Repo Rate is when RBI lends to banks\r\n2. Reverse Repo is when RBI borrows from banks\r\n3. CRR is percentage of deposits kept with RBI\r\n4. SLR is percentage kept with themselves\r\n\r\nWhich of the above statements are correct?\r\nA. 1,2 and 3 only\r\nB. 1,2 and 4 only\r\nC. 1,3 and 4 only\r\nD. 1,2,3 and 4",
+        "correct":"D"
+    },
+    {
+        "type":"multiple_correct",
+        "subject":"economy",
+        "question":"Consider the following about Inflation:\r\n1. CPI measures retail inflation\r\n2. WPI measures wholesale inflation\r\n3. Core inflation excludes food and fuel\r\n4. RBI uses CPI for monetary policy\r\n\r\nWhich of the above statements are correct?\r\nA. 1,2 and 3 only\r\nB. 1,2 and 4 only\r\nC. 1,3 and 4 only\r\nD. 1,2,3 and 4",
+        "correct":"D"
+    },
+    {
+        "type":"multiple_correct",
+        "subject":"economy",
+        "question":"Consider the following about Budget:\r\n1. Fiscal deficit includes borrowings\r\n2. Revenue deficit indicates consumption borrowing\r\n3. Primary deficit excludes interest payments\r\n4. Budget is presented by Finance Minister\r\n\r\nWhich of the above statements are correct?\r\nA. 1,2 and 3 only\r\nB. 1,2 and 4 only\r\nC. 1,3 and 4 only\r\nD. 1,2,3 and 4",
+        "correct":"D"
+    },
+    {
+        "type":"multiple_correct",
+        "subject":"economy",
+        "question":"Consider the following about Taxes:\r\n1. GST is an indirect tax\r\n2. Income Tax is a direct tax\r\n3. Corporate Tax is a direct tax\r\n4. Customs Duty is a direct tax\r\n\r\nWhich of the above statements are correct?\r\nA. 1,2 and 3 only\r\nB. 1,2 and 4 only\r\nC. 1,3 and 4 only\r\nD. 2,3 and 4 only",
+        "correct":"A"
+    },
+    {
+        "type":"multiple_correct",
+        "subject":"science",
+        "question":"Consider the following about ISRO:\r\n1. It was established in 1969\r\n2. PSLV is called workhorse of ISRO\r\n3. GSLV uses cryogenic engine\r\n4. Chandrayaan-1 discovered water on moon\r\n\r\nWhich of the above statements are correct?\r\nA. 1,2 and 3 only\r\nB. 1,2 and 4 only\r\nC. 1,3 and 4 only\r\nD. 1,2,3 and 4",
+        "correct":"D"
+    },
+    {
+        "type":"multiple_correct",
+        "subject":"science",
+        "question":"Consider the following about Missiles:\r\n1. Agni is ballistic missile\r\n2. Prithvi is surface-to-surface missile\r\n3. BrahMos is supersonic cruise missile\r\n4. Akash is air-to-air missile\r\n\r\nWhich of the above statements are correct?\r\nA. 1,2 and 3 only\r\nB. 1,2 and 4 only\r\nC. 1,3 and 4 only\r\nD. 2,3 and 4 only",
+        "correct":"A"
+    },
+    {
+        "type":"combined",
+        "subject":"polity",
+        "question":"Arrange in chronological order:\r\nA. 42nd Amendment\r\nB. 44th Amendment\r\nC. 73rd Amendment\r\nD. 86th Amendment\r\n\r\n(Write answer as: A,B,C,D)",
+        "correct":"A,B,C,D"
+    },
+    {
+        "type":"combined",
+        "subject":"polity",
+        "question":"Arrange in chronological order:\r\nA. Appointment of first Finance Commission\r\nB. Appointment of first Election Commission\r\nC. Formation of Planning Commission\r\nD. Formation of NITI Aayog\r\n\r\n(Write answer as: A,B,C,D)",
+        "correct":"B,A,C,D"
+    },
+    {
+        "type":"combined",
+        "subject":"polity",
+        "question":"The ______ Amendment is called the 'Mini-Constitution'. (42nd\/44th\/73rd\/86th)",
+        "correct":"42nd"
+    },
+    {
+        "type":"combined",
+        "subject":"polity",
+        "question":"The Vice President is the ex-officio Chairman of ______. (Rajya Sabha\/Lok Sabha\/Parliament\/Cabinet)",
+        "correct":"Rajya Sabha"
+    },
+    {
+        "type":"combined",
+        "subject":"polity",
+        "question":"The President can declare National Emergency under Article ______. (352\/356\/360\/368)",
+        "correct":"352"
+    },
+    {
+        "type":"combined",
+        "subject":"polity",
+        "question":"The Chief Justice of India retires at age ______. (65\/62\/60\/68)",
+        "correct":"65"
+    },
+    {
+        "type":"combined",
+        "subject":"polity",
+        "question":"The Lok Sabha has a maximum strength of ______ members. (552\/545\/550\/543)",
+        "correct":"552"
+    },
+    {
+        "type":"combined",
+        "subject":"polity",
+        "question":"The Rajya Sabha is a permanent house with ______ members retiring every 2 years. (1\/3rd\/1\/4th\/1\/6th\/1\/2)",
+        "correct":"1\/3rd"
+    },
+    {
+        "type":"combined",
+        "subject":"polity",
+        "question":"The Attorney General holds office during pleasure of ______. (President\/Prime Minister\/Parliament\/Chief Justice)",
+        "correct":"President"
+    },
+    {
+        "type":"combined",
+        "subject":"polity",
+        "question":"The Comptroller and Auditor General submits his report to ______. (President\/Parliament\/Finance Minister\/Prime Minister)",
+        "correct":"President"
+    },
+    {
+        "type":"combined",
+        "subject":"polity",
+        "question":"True or False: Fundamental Duties were added by 44th Amendment. (True\/False)",
+        "correct":"False"
+    },
+    {
+        "type":"combined",
+        "subject":"polity",
+        "question":"True or False: The Vice President can be removed by a resolution in Rajya Sabha only. (True\/False)",
+        "correct":"False"
+    },
+    {
+        "type":"combined",
+        "subject":"polity",
+        "question":"True or False: The President's pardon power can be exercised even after court martial. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"combined",
+        "subject":"history",
+        "question":"Arrange in chronological order:\r\nA. Battle of Plassey\r\nB. Battle of Buxar\r\nC. Battle of Wandiwash\r\nD. Third Battle of Panipat\r\n\r\n(Write answer as: A,B,C,D)",
+        "correct":"A,C,B,D"
+    },
+    {
+        "type":"combined",
+        "subject":"history",
+        "question":"Arrange in chronological order:\r\nA. Simon Commission\r\nB. Nehru Report\r\nC. Jinnah's 14 Points\r\nD. Lahore Session\r\n\r\n(Write answer as: A,B,C,D)",
+        "correct":"A,B,C,D"
+    },
+    {
+        "type":"combined",
+        "subject":"history",
+        "question":"Arrange in chronological order:\r\nA. Non-Cooperation Movement\r\nB. Civil Disobedience Movement\r\nC. Quit India Movement\r\nD. Rowlatt Satyagraha\r\n\r\n(Write answer as: D,A,B,C)",
+        "correct":"D,A,B,C"
+    },
+    {
+        "type":"combined",
+        "subject":"history",
+        "question":"The ______ Dynasty built the Khajuraho temples. (Chandela\/Pratihara\/Chola\/Pallava)",
+        "correct":"Chandela"
+    },
+    {
+        "type":"combined",
+        "subject":"history",
+        "question":"The Jallianwala Bagh massacre occurred in ______. (1919\/1857\/1942\/1930)",
+        "correct":"1919"
+    },
+    {
+        "type":"combined",
+        "subject":"history",
+        "question":"The Quit India Movement was launched in ______. (1942\/1930\/1920\/1857)",
+        "correct":"1942"
+    },
+    {
+        "type":"combined",
+        "subject":"history",
+        "question":"The Cabinet Mission came to India in ______. (1946\/1942\/1947\/1945)",
+        "correct":"1946"
+    },
+    {
+        "type":"combined",
+        "subject":"history",
+        "question":"The First Battle of Panipat was fought in ______. (1526\/1556\/1761\/1857)",
+        "correct":"1526"
+    },
+    {
+        "type":"combined",
+        "subject":"history",
+        "question":"True or False: Ashoka embraced Buddhism after Kalinga War. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"combined",
+        "subject":"history",
+        "question":"True or False: The Indus Valley people knew iron. (True\/False)",
+        "correct":"False"
+    },
+    {
+        "type":"combined",
+        "subject":"history",
+        "question":"True or False: Akbar founded Din-i-Ilahi. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"combined",
+        "subject":"history",
+        "question":"True or False: The Revolt of 1857 began at Delhi. (True\/False)",
+        "correct":"False"
+    },
+    {
+        "type":"combined",
+        "subject":"history",
+        "question":"True or False: The Indian National Congress demanded complete independence from its inception. (True\/False)",
+        "correct":"False"
+    },
+    {
+        "type":"combined",
+        "subject":"geography",
+        "question":"Arrange in order of height (highest to lowest):\r\nA. Kanchenjunga\r\nB. Nanda Devi\r\nC. Anaimudi\r\nD. Godwin Austen\r\n\r\n(Write answer as: D,A,B,C)",
+        "correct":"D,A,B,C"
+    },
+    {
+        "type":"combined",
+        "subject":"geography",
+        "question":"Arrange in order of length (longest to shortest):\r\nA. Ganga\r\nB. Godavari\r\nC. Krishna\r\nD. Narmada\r\n\r\n(Write answer as: A,B,C,D)",
+        "correct":"A,B,C,D"
+    },
+    {
+        "type":"combined",
+        "subject":"geography",
+        "question":"The ______ River is known as 'Dakshin Ganga'. (Godavari\/Krishna\/Cauvery\/Narmada)",
+        "correct":"Godavari"
+    },
+    {
+        "type":"combined",
+        "subject":"geography",
+        "question":"The ______ Pass connects Manali to Leh. (Rohtang\/Nathu La\/Zoji La\/Bol Pass)",
+        "correct":"Rohtang"
+    },
+    {
+        "type":"combined",
+        "subject":"geography",
+        "question":"The ______ Plateau is known for minerals. (Chotanagpur\/Deccan\/Malwa\/Baghelkhand)",
+        "correct":"Chotanagpur"
+    },
+    {
+        "type":"combined",
+        "subject":"geography",
+        "question":"The Tropic of Cancer passes through ______ Indian states. (8\/7\/6\/5)",
+        "correct":"8"
+    },
+    {
+        "type":"combined",
+        "subject":"geography",
+        "question":"The Standard Meridian of India is ______\u00b0E. (82.5\/85\/80\/78)",
+        "correct":"82.5"
+    },
+    {
+        "type":"combined",
+        "subject":"geography",
+        "question":"______ is the wettest place in India. (Mawsynram\/Cherrapunji\/Jaisalmer\/Shillong)",
+        "correct":"Mawsynram"
+    },
+    {
+        "type":"combined",
+        "subject":"geography",
+        "question":"True or False: The Ganga originates from Gangotri glacier. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"combined",
+        "subject":"geography",
+        "question":"True or False: The Brahmaputra originates in India. (True\/False)",
+        "correct":"False"
+    },
+    {
+        "type":"combined",
+        "subject":"geography",
+        "question":"True or False: Black soil is ideal for cotton cultivation. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"combined",
+        "subject":"geography",
+        "question":"True or False: Laterite soil is rich in iron and aluminum. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"combined",
+        "subject":"geography",
+        "question":"True or False: The Aravalli are the oldest mountains in India. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"combined",
+        "subject":"environment",
+        "question":"Arrange in order of establishment (oldest to newest):\r\nA. Project Tiger\r\nB. Wildlife Protection Act\r\nC. Environment Protection Act\r\nD. Project Elephant\r\n\r\n(Write answer as: B,A,C,D)",
+        "correct":"B,A,C,D"
+    },
+    {
+        "type":"combined",
+        "subject":"environment",
+        "question":"______ is India's oldest national park. (Jim Corbett\/Kaziranga\/Gir\/Sundarbans)",
+        "correct":"Jim Corbett"
+    },
+    {
+        "type":"combined",
+        "subject":"environment",
+        "question":"Project Tiger was launched in ______. (1973\/1972\/1980\/1969)",
+        "correct":"1973"
+    },
+    {
+        "type":"combined",
+        "subject":"environment",
+        "question":"The ______ is found in Gir Forest. (Asiatic Lion\/Bengal Tiger\/One-horned Rhino\/Elephant)",
+        "correct":"Asiatic Lion"
+    },
+    {
+        "type":"combined",
+        "subject":"environment",
+        "question":"Kaziranga is famous for ______. (One-horned Rhino\/Tiger\/Elephant\/Lion)",
+        "correct":"One-horned Rhino"
+    },
+    {
+        "type":"combined",
+        "subject":"environment",
+        "question":"India's first Ramsar site was ______. (Chilika\/Keoladeo\/Sundarbans\/Wular)",
+        "correct":"Chilika"
+    },
+    {
+        "type":"combined",
+        "subject":"environment",
+        "question":"India has ______ Ramsar sites as of 2024. (75\/80\/70\/65)",
+        "correct":"75"
+    },
+    {
+        "type":"combined",
+        "subject":"environment",
+        "question":"True or False: Mangroves protect against cyclones. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"combined",
+        "subject":"environment",
+        "question":"True or False: Tiger is under Schedule I of Wildlife Protection Act. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"combined",
+        "subject":"environment",
+        "question":"True or False: Montreal Protocol deals with climate change. (True\/False)",
+        "correct":"False"
+    },
+    {
+        "type":"combined",
+        "subject":"environment",
+        "question":"True or False: Paris Agreement is legally binding on all countries. (True\/False)",
+        "correct":"False"
+    },
+    {
+        "type":"combined",
+        "subject":"economy",
+        "question":"Arrange in order of introduction:\r\nA. GST\r\nB. NITI Aayog\r\nC. LPG Reforms\r\nD. Five Year Plans\r\n\r\n(Write answer as: D,C,B,A)",
+        "correct":"D,C,B,A"
+    },
+    {
+        "type":"combined",
+        "subject":"economy",
+        "question":"RBI was nationalized in ______. (1949\/1947\/1950\/1935)",
+        "correct":"1949"
+    },
+    {
+        "type":"combined",
+        "subject":"economy",
+        "question":"GST was introduced in ______. (2017\/2016\/2018\/2019)",
+        "correct":"2017"
+    },
+    {
+        "type":"combined",
+        "subject":"economy",
+        "question":"NITI Aayog was formed in ______. (2015\/2014\/2016\/2017)",
+        "correct":"2015"
+    },
+    {
+        "type":"combined",
+        "subject":"economy",
+        "question":"______ is the rate at which RBI lends to banks. (Repo Rate\/Reverse Repo\/Bank Rate\/CRR)",
+        "correct":"Repo Rate"
+    },
+    {
+        "type":"combined",
+        "subject":"economy",
+        "question":"CRR stands for ______. (Cash Reserve Ratio\/Central Reserve Rate\/Capital Reserve Ratio\/Core Reserve Ratio)",
+        "correct":"Cash Reserve Ratio"
+    },
+    {
+        "type":"combined",
+        "subject":"economy",
+        "question":"True or False: GST is a direct tax. (True\/False)",
+        "correct":"False"
+    },
+    {
+        "type":"combined",
+        "subject":"economy",
+        "question":"True or False: Inflation benefits debtors. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"combined",
+        "subject":"economy",
+        "question":"True or False: Fiscal deficit includes borrowings. (True\/False)",
+        "correct":"True"
+    },
+    {
+        "type":"combined",
+        "subject":"economy",
+        "question":"True or False: SEBI regulates stock markets in India. (True\/False)",
+        "correct":"True"
+    }
+]
