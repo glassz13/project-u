@@ -31,6 +31,9 @@
             box-sizing: border-box;
         }
         .active { display: block; }
+        .screen:not(.active) {
+    display: none !important;
+}
 
         /* ----------------- INTRO (KEEP EXACT EXPERIENCE) ----------------- */
         #intro-screen {
@@ -67,7 +70,7 @@
 
         /* ----------------- MAIN PAGE (LEFT-ALIGNED) ----------------- */
         #game-screen {
-            padding:60px 80px;
+            padding:30px 80px;
         }
 
         .title {
@@ -217,7 +220,7 @@
     <!-- ========== MAIN GAME SCREEN (left-aligned website style) ========== -->
     <div id="game-screen" class="screen">
 
-        <div class="title">Project U</div>
+        <div class="title">project-u</div>
         <div class="sun-tzu">"In the midst of chaos, there is also opportunity." – Sun Tzu</div>
 
         <!-- Stats -->
@@ -313,34 +316,23 @@
         }
 
         // ENTER on intro -> start
-// ENTER on intro -> start, and also TOUCH anywhere on intro screen
-document.addEventListener("keydown", function (e) {
-    if (e.key === "Enter") {
-        const introActive = document.getElementById("intro-screen").classList.contains("active");
-        if (introActive) {
-            startGameScreen();
-        }
-    }
-});
-
-// Add touch support for mobile - tap anywhere on intro screen to start
-document.getElementById("intro-screen").addEventListener("touchstart", function(e) {
-    if (this.classList.contains("active")) {
-        e.preventDefault();
-        startGameScreen();
-    }
-});
-
-// Also add click support for mouse users
-document.getElementById("intro-screen").addEventListener("click", function() {
-    if (this.classList.contains("active")) {
-        startGameScreen();
-    }
-});
+        document.addEventListener("keydown", function (e) {
+            if (e.key === "Enter") {
+                const introActive = document.getElementById("intro-screen").classList.contains("active");
+                if (introActive) {
+                    startGameScreen();
+                } else {
+                    // If game screen visible, allow Enter to submit answer
+                    const answerEl = document.getElementById("answer");
+                    if (answerEl && document.activeElement === answerEl) {
+                        // do nothing here — press will trigger form/button click
+                    }
+                }
+            }
+        });
     </script>
 
     <!-- =================== Your game logic file =================== -->
     <script src="script.js"></script>
 </body>
 </html>
-
