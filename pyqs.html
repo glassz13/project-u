@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Project U — UPSC PYQs</title>
+
+  <style>
+    :root{
+      --bg:#0f1115;
+      --muted:#aaa;
+      --accent:#e5e5e5;
+      --panel:#181a20;
+      --soft:#2c2f36;
+      --sub:#b9bfc4;
+      --green:#9fe39f;
+      --red:#f39b9b;
+    }
+    html,body{height:100%;margin:0;background:var(--bg);color:var(--accent);font-family:"Segoe UI", Roboto, Arial, sans-serif;}
+    .screen{display:none;min-height:100vh;box-sizing:border-box;}
+    .active{display:block;}
+    /* Intro */
+    #intro-screen{display:flex;align-items:center;justify-content:center;flex-direction:column;text-align:center;padding:60px 20px;}
+    #intro-text{font-size:1.35rem;max-width:720px;line-height:1.6;color:var(--accent);margin-bottom:14px;}
+    #quote{margin-top:20px;font-style:italic;color:var(--muted);font-size:1.05rem;max-width:720px;}
+    #enter-hint{margin-top:46px;color:#9aa0a6;font-size:0.95rem;letter-spacing:0.6px;}
+
+    /* Main layout */
+    #main-screen{padding:34px 54px;min-height:100vh;}
+    .header {
+      display:flex;
+      align-items:flex-end;
+      gap:18px;
+      margin-bottom:14px;
+    }
+  .title {
+            font-size:2.1rem;
+            letter-spacing:2px;
+            margin-bottom:6px;
+            color:var(--accent);
+            font-weight:600;
+        }
+
+    .sub {color:var(--muted);font-size:1.05rem;margin-top:2px;}
+
+    /* stats row */
+    .stats {display:flex;gap:24px;align-items:center;margin:22px 0 0px;flex-wrap:wrap;}
+    .stat {min-width:110px;}
+    .stat .label {color:var(--sub);font-size:0.92rem;}
+    .stat .value {font-size:1.4rem;font-weight:700;margin-top:6px;color:var(--accent);}
+
+    /* layout columns */
+    .page-grid {display:grid;grid-template-columns: 1fr 300px; gap:26px; align-items:start;}
+    @media (max-width:960px){ .page-grid {grid-template-columns: 1fr; } }
+
+    /* question list */
+    .question-list {display:flex;flex-direction:column;gap:16px;}
+    .qcard {
+      background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+      border:1px solid #222427;
+      padding:14px 16px;
+      border-radius:10px;
+    }
+    .qheader {font-size:0.98rem;color:var(--sub);margin-bottom:8px;}
+    .qtext {font-size:1.12rem;line-height:1.6;color:var(--accent); white-space:pre-wrap;}
+    .answer-row {margin-top:12px;display:flex;gap:12px;align-items:center;}
+    .answer-row input {
+      padding:10px 8px;font-size:0.98rem;flex:1;background:transparent;border:none;border-bottom:1px solid #34363a;color:var(--accent);outline:none;
+    }
+    .answer-row button {padding:8px 14px;background:var(--soft);border:none;border-radius:6px;color:var(--accent);cursor:pointer;}
+    .meta {margin-top:8px;color:var(--muted);font-size:0.9rem;}
+
+    /* sidebar */
+    .sidebar {position:relative;   margin-top:-8px;
+}
+    .panel {background:var(--panel);padding:12px;border-radius:10px;border:1px solid #222427;}
+    .panel h4 {margin:0 0 8px;color:var(--muted);font-size:0.95rem;}
+    .filter-list {display:flex;flex-direction:column;gap:8px;margin-top:8px;max-height:320px;overflow:auto;padding-right:6px;}
+    .filter-list label{font-size:0.95rem;color:var(--accent);display:flex;gap:8px;align-items:center;cursor:pointer;}
+    .filter-actions {margin-top:12px;display:flex;gap:10px;flex-wrap:wrap;}
+    .tiny {font-size:0.9rem;color:var(--muted);margin-top:10px;}
+
+    .btn-small {font-size:0.95rem;padding:8px 10px;border-radius:6px;background:#111315;border:1px solid #2a2d30;color:var(--accent);cursor:pointer;}
+    .btn-primary {background:#2c7be5;border-color:#235bb0;color:white;}
+
+    /* empty state */
+    .empty {color:#c7ced1;padding:18px;border:1px dashed #2a2d30;border-radius:8px;text-align:center;}
+    .feedback {font-size:0.95rem;margin-top:8px;}
+  </style>
+</head>
+<body>
+
+  <!-- INTRO -->
+  <div id="intro-screen" class="screen active">
+    <div id="intro-text"></div>
+    <div id="quote"></div>
+    <div id="enter-hint">Press ENTER to continue</div>
+  </div>
+
+  <!-- MAIN -->
+  <div id="main-screen" class="screen" style="display:none;">
+    <div class="header">
+      <div>
+        <div class="title">project-u</div>
+        <div class="sub">UPSC Prelims Previous Year Questions</div>
+      </div>
+    </div>
+
+    <div class="stats" aria-live="polite">
+      <div class="stat">
+        <div class="label">Total</div>
+        <div id="totalQuestions" class="value">0</div>
+      </div>
+
+      <div class="stat">
+        <div class="label">Attempted</div>
+        <div id="attempted" class="value">0</div>
+      </div>
+
+      <div class="stat">
+        <div class="label">Correct</div>
+        <div id="correctCount" class="value">0</div>
+      </div>
+
+      <div class="stat">
+        <div class="label">Accuracy</div>
+        <div id="accuracy" class="value">—</div>
+      </div>
+    </div>
+
+    <div style="display:flex;gap:12px;margin-bottom:10px;">
+      <div style="flex:1"></div>
+      <div style="color:var(--muted);font-size:0.95rem;align-self:center;">Tip : Think before you mark. Practice > Panic</div>
+    </div>
+
+    <div class="page-grid">
+      <!-- LEFT: question list -->
+      <div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;">
+          <div style="color:var(--muted);font-size:0.95rem;">Questions list</div>
+          <div class="tiny" id="shownCount">Showing 0</div>
+        </div>
+
+        <div class="question-list" id="questionList">
+          <!-- question cards injected here -->
+        </div>
+      </div>
+
+      <!-- RIGHT: filters -->
+      <aside class="sidebar">
+        <div class="panel">
+          <h4>Filter by Year</h4>
+          <div class="filter-list" id="yearsFilter">
+            <!-- checkboxes injected -->
+          </div>
+
+          <h4 style="margin-top:12px;">Filter by Subject</h4>
+          <div class="filter-list" id="subjectFilter">
+            <!-- checkboxes injected -->
+          </div>
+
+          <div class="filter-actions">
+            <button id="applyFilters" class="btn-small btn-primary">Apply</button>
+            <button id="clearFilters" class="btn-small">Clear</button>
+          </div>
+
+          <div class="tiny">Filters update immediately when you change them. You can also click Apply.</div>
+        </div>
+      </aside>
+    </div>
+  </div>
+
+<script>
+/* ======= Intro typewriter ======= */
+const introText = "Mains Fact : India hosts about 8% of global biodiversity despite having only 2.4% of the world’s land area.";
+const quoteText = "\"In the midst of chaos, there is also opportunity… and probably bad Wi-Fi. : Sun Tzu\"";
+let ti = 0, tj = 0;
+function typeIntro(){ if(ti < introText.length){ document.getElementById('intro-text').innerHTML += introText.charAt(ti++); setTimeout(typeIntro,30);} else setTimeout(typeQuote,350); }
+function typeQuote(){ if(tj < quoteText.length){ document.getElementById('quote').innerHTML += quoteText.charAt(tj++); setTimeout(typeQuote,28);} }
+typeIntro();
+
+/* ======= Config ======= */
+const YEARS = ['2015']; // add more year filenames (2016, 2017...) if present
+
+/* ======= State (fresh session; no persistence) ======= */
+let questionsData = [];
+let answersMap = {};   // qid -> { user, isCorrect, correct }
+let activeYears = new Set();       // store strings, e.g. "2015"
+let activeSubjects = new Set();    // store lowercase trimmed subject strings
+
+/* ======= Utils ======= */
+const $ = id => document.getElementById(id);
+function normalize(s=''){ return String(s||'').trim().replace(/\s+/g,' ').replace(/[“”‘’"'`.,;:?()]/g,'').toLowerCase(); }
+function qid(q){ return `${q.year || 'y'}_${q.question_no || Math.random().toString(36).slice(2,7)}`; }
+function parseOptions(text=''){
+  const opts = {};
+  if(!text) return opts;
+  const global = [...text.matchAll(/\(?([A-D])\)?[.)]?\s*([^(\n\r]+)/gi)];
+  for(const g of global){
+    const letter = (g[1]||'').toUpperCase();
+    const optT = (g[2]||'').trim();
+    if(letter && optT) opts[letter] = optT;
+  }
+  return opts;
+}
+
+/* ======= Init: load JSON files ======= */
+async function initApp(){
+  answersMap = {}; // fresh session: clear previous answers on refresh
+  questionsData = [];
+  for(const y of YEARS){
+    try{
+      const res = await fetch(`${y}.json`);
+      if(!res.ok){ console.warn(`Missing ${y}.json (${res.status})`); continue; }
+      const arr = await res.json();
+      const normalized = arr.map(item => ({
+        year: item.year || y,
+        question_no: item.question_no || item.qno || '',
+        question_text: item.question_text || item.question || '',
+        correct_answer: item.correct_answer || item.correct || '',
+        subject: (item.subject || item.topic || 'Unknown').trim()
+      }));
+      questionsData = questionsData.concat(normalized);
+    }catch(e){ console.error("Load error", e); }
+  }
+
+  populateYearFilter();
+  populateSubjectFilter();
+  renderList();
+  updateStats();
+}
+
+/* ======= Filters ======= */
+function populateYearFilter(){
+  const years = Array.from(new Set(questionsData.map(q => String(q.year)))).sort((a,b)=>b-a);
+  const container = $('yearsFilter');
+  container.innerHTML = '';
+  years.forEach(y=>{
+    const id = 'yr_'+y;
+    const lbl = document.createElement('label');
+    lbl.innerHTML = `<input type="checkbox" id="${id}" value="${y}"> ${y}`;
+    container.appendChild(lbl);
+    const cb = document.getElementById(id);
+    cb.addEventListener('change', (e)=>{
+      const val = String(e.target.value);
+      if(e.target.checked) activeYears.add(val); else activeYears.delete(val);
+      renderList();
+    });
+  });
+}
+
+function populateSubjectFilter(){
+  const subs = Array.from(new Set(questionsData.map(q => (q.subject||'Unknown').trim()))).sort();
+  const container = $('subjectFilter');
+  container.innerHTML = '';
+  subs.forEach(s=>{
+    const id = 'sb_'+s.replace(/\s+/g,'_');
+    const lbl = document.createElement('label');
+    lbl.innerHTML = `<input type="checkbox" id="${id}" value="${s}"> ${s}`;
+    container.appendChild(lbl);
+    const cb = document.getElementById(id);
+    cb.addEventListener('change', (e)=>{
+      const val = String(e.target.value).toLowerCase().trim();
+      if(e.target.checked) activeSubjects.add(val); else activeSubjects.delete(val);
+      renderList();
+    });
+  });
+}
+
+/* ======= Filtering & rendering ======= */
+/* Logic: show item if (no years selected OR item.year in selectedYears)
+           AND (no subjects selected OR item.subject in selectedSubjects)
+   i.e. years group = OR among themselves; subjects group = OR among themselves;
+   year-group AND subject-group (intersection).
+*/
+function getFiltered(){
+  return questionsData.filter(q=>{
+    // year check
+    if(activeYears.size > 0 && !activeYears.has(String(q.year))) return false;
+    // subject check (compare lowercase trimmed)
+    if(activeSubjects.size > 0 && !activeSubjects.has(String(q.subject).toLowerCase().trim())) return false;
+    return true;
+  });
+}
+
+function renderList(){
+  const list = $('questionList');
+  list.innerHTML = '';
+  const filtered = getFiltered();
+  $('shownCount').textContent = `Showing ${filtered.length}`;
+  if(!filtered.length){
+    const e = document.createElement('div'); e.className='empty'; e.textContent='No questions match the filters.'; list.appendChild(e); updateStats(); return;
+  }
+
+  for(const q of filtered){
+    const card = document.createElement('div'); card.className='qcard';
+    const head = document.createElement('div'); head.className='qheader'; head.textContent = `${q.year} • ${q.subject} • Q${q.question_no}`;
+    const qtext = document.createElement('div'); qtext.className='qtext'; qtext.textContent = q.question_text;
+    const answerRow = document.createElement('div'); answerRow.className='answer-row';
+    const input = document.createElement('input'); input.type='text'; input.placeholder='Type your answer'; input.className='qinput';
+    input.addEventListener('keypress', (e)=>{ if(e.key === 'Enter'){ e.preventDefault(); btn.click(); } });
+    const btn = document.createElement('button'); btn.className='qbtn'; btn.textContent='Submit';
+    const meta = document.createElement('div'); meta.className='meta'; meta.textContent = `ID: ${q.question_no}`;
+    const feedback = document.createElement('div'); feedback.className='feedback';
+
+    btn.addEventListener('click', ()=>{
+      const user = input.value || '';
+      const result = evaluateAnswer(q, user);
+      const id = qid(q);
+      answersMap[id] = { user, isCorrect: result.isCorrect, correct: result.representativeCorrect };
+      feedback.textContent = result.isCorrect ? '✅ Correct!' : `❌ Wrong. Correct: ${result.representativeCorrect}`;
+      feedback.style.color = result.isCorrect ? 'var(--green)' : 'var(--red)';
+      const old = btn.textContent;
+      btn.textContent = result.isCorrect ? '✓' : '✕';
+      btn.style.background = result.isCorrect ? '#2a6f3c' : '#6f2a2a';
+      setTimeout(()=>{ btn.textContent = old; btn.style.background = 'var(--soft)'; }, 700);
+      updateStats();
+    });
+
+    answerRow.appendChild(input);
+    answerRow.appendChild(btn);
+
+    card.appendChild(head);
+    card.appendChild(qtext);
+    card.appendChild(answerRow);
+    card.appendChild(feedback);
+    card.appendChild(meta);
+
+    list.appendChild(card);
+  }
+
+  updateStats();
+}
+
+/* ======= Answer checking (same forgiving rules) ======= */
+function evaluateAnswer(q, userInput){
+  const correctRaw = String(q.correct_answer || q.correct || '').trim();
+  const userNorm = normalize(userInput);
+  const corrNorm = normalize(correctRaw);
+  // if correct is single letter
+  if(/^[A-Da-d]$/.test(corrNorm)){
+    const letter = corrNorm.toUpperCase();
+    const opts = parseOptions(q.question_text || '');
+    const optText = opts[letter] || '';
+    const combined = optText ? `${letter} — ${optText}` : letter;
+    if(userNorm === letter.toLowerCase() || userNorm === `(${letter.toLowerCase()})` || userNorm === `${letter.toLowerCase()}.`) return { isCorrect: true, representativeCorrect: combined };
+    if(optText && normalize(optText) === userNorm) return { isCorrect: true, representativeCorrect: combined };
+    return { isCorrect: false, representativeCorrect: combined };
+  }
+  if(corrNorm === userNorm && corrNorm !== '') return { isCorrect: true, representativeCorrect: correctRaw };
+  const na = Number(corrNorm), nb = Number(userNorm);
+  if(!isNaN(na) && !isNaN(nb) && Math.abs(na-nb) < 1e-9) return { isCorrect: true, representativeCorrect: correctRaw };
+  return { isCorrect: false, representativeCorrect: correctRaw };
+}
+
+/* ======= Stats ======= */
+function updateStats(){
+  const total = questionsData.length;
+  const attempted = Object.keys(answersMap).length;
+  const correctCount = Object.values(answersMap).filter(x => x.isCorrect).length;
+  const accuracy = attempted ? Math.round((correctCount / attempted)*100) : '—';
+  $('totalQuestions').textContent = total;
+  $('attempted').textContent = attempted;
+  $('correctCount').textContent = correctCount;
+  $('accuracy').textContent = attempted ? `${accuracy}%` : '—';
+}
+
+/* ======= Controls: clear filters / apply ======= */
+$('clearFilters').addEventListener('click', ()=>{
+  activeYears.clear(); activeSubjects.clear();
+  document.querySelectorAll('#yearsFilter input, #subjectFilter input').forEach(cb=>cb.checked=false);
+  renderList();
+});
+$('applyFilters').addEventListener('click', ()=> renderList());
+
+/* ======= Start ======= */
+document.addEventListener('keydown', (e)=>{
+  if(e.key === 'Enter'){
+    if($('intro-screen').classList.contains('active')){
+      $('intro-screen').classList.remove('active'); $('intro-screen').style.display='none';
+      $('main-screen').classList.add('active'); $('main-screen').style.display='block';
+      initApp();
+    }
+  }
+});
+$('intro-screen').addEventListener('click', ()=>{
+  if($('intro-screen').classList.contains('active')){
+    $('intro-screen').classList.remove('active'); $('intro-screen').style.display='none';
+    $('main-screen').classList.add('active'); $('main-screen').style.display='block';
+    initApp();
+  }
+});
+
+/* expose init for debug */
+window.initApp = initApp;
+document.addEventListener('DOMContentLoaded', ()=>{ try{ if($('main-screen').classList.contains('active')) initApp(); } catch(e){} });
+</script>
+</body>
+</html>
